@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RenTab is ready — pin it to your toolbar</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --accent: #0DC2FF;
+    --accent-dark: #0a9fd1;
+    --bg: #e3f6ff;
+    --text: #102a3a;
+    --text2: #4d6b7a;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0 20px 60px rgba(13, 194, 255, 0.18);
+    max-width: 560px;
+    width: 100%;
+    padding: 48px 40px;
+    text-align: center;
+  }
+
+  .icon-wrap {
+    width: 84px;
+    height: 84px;
+    margin: 0 auto 24px;
+    border-radius: 22px;
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-wrap svg {
+    width: 48px;
+    height: 48px;
+  }
+
+  h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--text);
+  }
+
+  p.lead {
+    color: var(--text2);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 36px;
+  }
+
+  .steps {
+    text-align: left;
+    background: var(--bg);
+    border-radius: 16px;
+    padding: 24px 24px 24px 20px;
+    margin-bottom: 8px;
+  }
+
+  .step {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 10px 0;
+  }
+
+  .step:not(:last-child) {
+    border-bottom: 1px solid rgba(13, 194, 255, 0.15);
+  }
+
+  .step-num {
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .step-text {
+    font-size: 14.5px;
+    line-height: 1.45;
+    color: var(--text);
+    padding-top: 3px;
+  }
+
+  .step-text b {
+    color: var(--accent-dark);
+  }
+
+  .puzzle-hint {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #fff;
+    border: 1px solid rgba(13, 194, 255, 0.3);
+    border-radius: 8px;
+    padding: 3px 8px;
+    font-size: 13px;
+    margin: 0 2px;
+  }
+
+  .footer-note {
+    margin-top: 28px;
+    font-size: 13px;
+    color: var(--text2);
+  }
+
+  .footer-note a {
+    color: var(--accent-dark);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .footer-note a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048">
+        <path fill="#0DC2FF" d="M255 1149V895h770v254zm1026 260H-1V639h1282v130H129v510h1152zm768-770v770h-386v-130h256V769h-256V639zm-512 928q111 96 255 96h1v130h-1q-176 0-318-110q-70 54-151 82t-171 28h-1v-130h1q145 0 255-93V474q-52-44-116-66t-139-23h-1V255h1q91 0 172 27t150 79q138-106 318-106h1v130h-1q-148 0-255 92z"/>
+      </svg>
+    </div>
+
+    <h1>RenTab is installed 🎉</h1>
+    <p class="lead">One last step — pin it to your toolbar so it's always one click away.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">Click the <b>puzzle icon</b> <span class="puzzle-hint">🧩</span> in your browser's toolbar, top right.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">Find <b>RenTab – rename tab</b> in the list.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">Click the <b>pin icon</b> next to it. It'll now stay visible in your toolbar.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-text">Open the RenTab icon on any tab, type a custom title, and hit <b>Save</b>.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-text">Need to find an older title or change how RenTab works? Open the <b>History</b> tab to search and revisit anything you've renamed, or the <b>Settings</b> tab to turn on <b>Chrome Sync</b> (so your titles follow you to other computers) or to <b>export/import</b> a backup of all your titles.</div>
+      </div>
+    </div>
+
+    <p class="footer-note">Questions or feedback? <a href="mailto:rentabextension@gmail.com">rentabextension@gmail.com</a></p>
+  </div>
+</body>
+</html>
