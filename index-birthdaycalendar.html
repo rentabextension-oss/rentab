@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Calendar is ready — pin it to your toolbar</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --accent: #5DCFF5;
+    --accent-dark: #1aa9d4;
+    --bg: #e8f8fd;
+    --text: #102a3a;
+    --text2: #4d6b7a;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0 20px 60px rgba(93, 207, 245, 0.25);
+    max-width: 560px;
+    width: 100%;
+    padding: 48px 40px;
+    text-align: center;
+  }
+
+  .icon-wrap {
+    width: 84px;
+    height: 84px;
+    margin: 0 auto 24px;
+    border-radius: 22px;
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-wrap svg {
+    width: 48px;
+    height: 48px;
+  }
+
+  h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--text);
+  }
+
+  p.lead {
+    color: var(--text2);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 36px;
+  }
+
+  .steps {
+    text-align: left;
+    background: var(--bg);
+    border-radius: 16px;
+    padding: 24px 24px 24px 20px;
+    margin-bottom: 8px;
+  }
+
+  .step {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 10px 0;
+  }
+
+  .step:not(:last-child) {
+    border-bottom: 1px solid rgba(93, 207, 245, 0.2);
+  }
+
+  .step-num {
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .step-text {
+    font-size: 14.5px;
+    line-height: 1.45;
+    color: var(--text);
+    padding-top: 3px;
+  }
+
+  .step-text b {
+    color: var(--accent-dark);
+  }
+
+  .puzzle-hint {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #fff;
+    border: 1px solid rgba(93, 207, 245, 0.4);
+    border-radius: 8px;
+    padding: 3px 8px;
+    font-size: 13px;
+    margin: 0 2px;
+  }
+
+  .footer-note {
+    margin-top: 28px;
+    font-size: 13px;
+    color: var(--text2);
+  }
+
+  .footer-note a {
+    color: var(--accent-dark);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .footer-note a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
+        <g fill="#5DCFF5">
+          <path d="M5 0S3.031 2.169 3.031 3.25a1.95 1.95 0 0 0 1.75 1.938a1.02 1.02 0 0 1-.812-1C3.969 3.625 5 2.5 5 2.5s1.031 1.124 1.031 1.688c0 .493-.348.905-.812 1a1.95 1.95 0 0 0 1.75-1.938C6.969 2.17 5 0 5 0"/>
+          <path d="M13 0s-1.969 2.169-1.969 3.25a1.95 1.95 0 0 0 1.75 1.938a1.02 1.02 0 0 1-.812-1C11.969 3.625 13 2.5 13 2.5s1.031 1.124 1.031 1.688c0 .493-.348.905-.812 1a1.95 1.95 0 0 0 1.75-1.938C14.969 2.17 13 0 13 0"/>
+          <path d="M21 0s-1.969 2.169-1.969 3.25a1.95 1.95 0 0 0 1.75 1.938a1.02 1.02 0 0 1-.812-1C19.969 3.625 21 2.5 21 2.5s1.031 1.124 1.031 1.688c0 .493-.348.905-.812 1a1.95 1.95 0 0 0 1.75-1.938C22.969 2.17 21 0 21 0"/>
+        </g>
+        <g fill="#1aa9d4">
+          <path d="M3.031 5.688a.558.558 0 0 0-.656.562c0 .36.656 1.011.656 2.156v5.563H6.97V8.313c0-.699.656-.952.656-1.313c0-.36-.015-.75-1.125-.75c-1.651 0-3.469-.563-3.469-.563z"/>
+          <path d="M11.031 5.688a.558.558 0 0 0-.656.562c0 .36.656 1.011.656 2.156v5.563h3.938V8.313c0-.699.656-.952.656-1.313c0-.36-.015-.75-1.125-.75c-1.651 0-3.469-.563-3.469-.563z"/>
+          <path d="M19.031 5.688a.558.558 0 0 0-.656.562c0 .36.656 1.011.656 2.156v5.563h3.938V8.313c0-.699.656-.952.656-1.313c0-.36-.015-.75-1.125-.75c-1.651 0-3.469-.563-3.469-.563z"/>
+        </g>
+        <path fill="#5DCFF5" d="M4 15c-1.656 0-3 1.344-3 3v6a1 1 0 0 0-.094 0A1.001 1.001 0 0 0 1 26h24a1 1 0 1 0 0-2v-6c0-1.656-1.344-3-3-3zm1 4a2 2 0 0 0 4 0a2 2 0 0 0 4 0a2 2 0 0 0 4 0a2 2 0 0 0 4 0a2 2 0 0 0 2 2v3H3v-3a2 2 0 0 0 2-2"/>
+      </svg>
+    </div>
+
+    <h1>Birthday Calendar is installed 🎉</h1>
+    <p class="lead">One last step — pin it to your toolbar so it's always one click away.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">Click the <b>puzzle icon</b> <span class="puzzle-hint">🧩</span> in your browser's toolbar, top right.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">Find <b>Birthday Calendar — Reminders & Notifications</b> in the list.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">Click the <b>pin icon</b> next to it. It'll now stay visible in your toolbar.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-text">Click the Birthday Calendar icon to open the side panel, then hit <b>+ Add</b> to save your first birthday — name, date, and an optional birth year.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-text">Want to change how reminders work? Open the <b>Settings</b> tab to choose which notifications you receive, turn on <b>sync</b> so your birthdays follow you to other devices, or <b>export/import</b> a backup of everything you've saved.</div>
+      </div>
+    </div>
+
+    <p class="footer-note">Questions or feedback? <a href="mailto:rentabextension@gmail.com">rentabextension@gmail.com</a></p>
+  </div>
+</body>
+</html>
