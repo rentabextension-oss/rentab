@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SQLite Viewer is ready — pin it to your toolbar</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --accent: #0DC2FF;
+  --accent-dark: #0a9fd1;
+  --bg: #e3f6ff;
+  --text: #1c1c1a;
+  --text2: #5c5b54;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+.card {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(24, 95, 165, 0.18);
+  max-width: 580px;
+  width: 100%;
+  padding: 48px 40px;
+  text-align: center;
+}
+.icon-wrap {
+  width: 84px;
+  height: 84px;
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-wrap svg { width: 64px; height: 71px; }
+h1 { font-size: 26px; font-weight: 700; margin-bottom: 12px; }
+p.lead { color: var(--text2); font-size: 16px; line-height: 1.5; margin-bottom: 36px; }
+.steps { text-align: left; background: var(--bg); border-radius: 16px; padding: 24px 24px 24px 20px; margin-bottom: 8px; }
+.step { display: flex; align-items: flex-start; gap: 14px; padding: 10px 0; }
+.step:not(:last-child) { border-bottom: 1px solid rgba(24, 95, 165, 0.15); }
+.step-num {
+  flex-shrink: 0; width: 26px; height: 26px; border-radius: 50%;
+  background: var(--accent); color: #fff; font-size: 13px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+}
+.step-text { font-size: 14.5px; line-height: 1.45; color: var(--text); padding-top: 3px; }
+.step-text b { color: var(--accent-dark); }
+.puzzle-hint {
+  display: inline-flex; align-items: center; gap: 6px; background: #fff;
+  border: 1px solid rgba(24, 95, 165, 0.3); border-radius: 8px; padding: 3px 8px; font-size: 13px; margin: 0 2px;
+}
+.note {
+  margin-top: 20px; font-size: 13px; color: var(--text2);
+  background: var(--bg); border-radius: 10px; padding: 12px 16px; text-align: left;
+}
+.footer-note { margin-top: 28px; font-size: 13px; color: var(--text2); }
+.footer-note a { color: var(--accent-dark); text-decoration: none; font-weight: 600; }
+.footer-note a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="icon-wrap">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 458 512" width="40" height="44">
+      <path fill="#0DC2FF" d="m228.502 233.071l-14.428 45.75c-7.693 28.4-7.039 37.358-3.137 43.966c.963 1.624 3.597 6.94 7.278 21.14c5.344 20.554 10.05 51.587 10.165 53.072c-.773 18.97-.355 39.069 1.179 58.313H39.147C17.617 455.312 0 437.695 0 416.166V61.88c0-21.53 17.616-39.15 39.147-39.15h293.008c-44.876 47.605-89.341 137.936-103.653 210.341M435.338 11.136c53.695 47.899.376 157.402-48.565 234.483c-35.586 11.437-77.064 36.696-77.064 36.696s3.45-1.832 16.255-7.203c8.68-3.649 34.598-9.811 50.381-13.41c-26.349 39.726-48.896 67.532-48.896 67.532s-45.97 18.681-60.187 62.14c8.24-46.357 21.913-94.74 41.208-146.3c17.232-46.042 74.796-170.377 117.328-208.788c-46.664 37.193-97.65 115.072-134.4 212.138c-21.751 64.3-33.523 125.992-35.44 177.149c-1.267 33.467 1.626 62.488 8.749 84.632L261.414 512c-6.987-18.132-13.399-49.997-11.865-115.295c-.23-2.913-.367-4.806-.367-4.806s-4.242-28.568-10.343-52.035c-2.702-10.417-5.778-19.836-9.007-25.295c-1.664-2.817.18-14.388 4.824-31.527c7.864 13.692 16.348 28.515 19.607 40.643c0 0-6.284-32.33-16.595-51.197c2.26-7.627 4.96-16.057 8.015-25.07c7.605 13.3 15.361 25.955 18.455 38.63c-3.384-16.193-7.965-32.32-15.101-48.307c12.97-67.496 54.719-155.876 99.696-203.59c24.007-25.617 57.092-48.544 86.605-23.015"/>
+    </svg>
+  </div>
+
+  <h1>SQLite Viewer is installed 🎉</h1>
+  <p class="lead">One last step — pin it to your toolbar so it's always one click away.</p>
+
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-text">Click the <b>puzzle icon</b> <span class="puzzle-hint">🧩</span> in your browser's toolbar, top right.</div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-text">Find <b>SQLite Viewer</b> in the list.</div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-text">Click the <b>pin icon</b> next to it. It'll now stay visible in your toolbar.</div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-text">Click the SQLite Viewer icon to open the <b>side panel</b>. Unlike a regular popup, it stays open while you browse other tabs.</div>
+    </div>
+    <div class="step">
+      <div class="step-num">5</div>
+      <div class="step-text">Drag a <b>.db / .sqlite</b> file into the panel, or click the <b>+</b> button, to open it. If Chrome asks for permission to write to the file, allow it — that's what lets your edits save automatically.</div>
+    </div>
+  </div>
+
+  <p class="note">💡 Everything runs locally in your browser. Your database is never uploaded anywhere.</p>
+
+  <p class="footer-note">Questions or feedback? <a href="mailto:rentabextension@gmail.com">rentabextension@gmail.com</a></p>
+</div>
+</body>
+</html>
