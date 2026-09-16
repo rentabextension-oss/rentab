@@ -3,24 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard Viewer — Get Started</title>
+  <title>RenTab — Get Started</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --accent: #3b6fe0; --accent-hover: #2d59bd; --accent-dim: #eaf0fd;
+      --accent: #007fa6; --accent-hover: #006583; --accent-dim: #e3f6ff;
       --text: #15171c; --text2: #585f6b; --text3: #8a909c;
       --border: #e4e7ec; --bg: #f7f8fa; --white: #ffffff; --radius: 16px;
     }
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif; background: var(--bg); color: var(--text); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     header { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 24px; }
     .header-inner { max-width: 860px; margin: 0 auto; display: flex; align-items: center; gap: 12px; height: 62px; }
-    .logo-mark { width: 34px; height: 34px; background: var(--accent); border-radius: 9px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .logo-mark { width: 34px; height: 34px; background: var(--accent-dim); border-radius: 9px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
     .logo-name { font-size: 15px; font-weight: 700; color: var(--text); text-decoration: none; }
 
-    .hero { background: linear-gradient(135deg, #5b86f5 0%, #3b6fe0 45%, #2545b0 100%); padding: 56px 24px 52px; text-align: center; position: relative; overflow: hidden; }
+    .hero { background: linear-gradient(135deg, #0dc2ff 0%, #009acb 45%, #0879ad 100%); padding: 56px 24px 52px; text-align: center; position: relative; overflow: hidden; }
     .hero::before { content:""; position:absolute; width:520px; height:520px; border-radius:50%; background:radial-gradient(circle,rgba(255,255,255,.14) 0%,rgba(255,255,255,0) 68%); top:-240px; right:-120px; }
-    .hero-badge { position: relative; width: 64px; height: 64px; margin: 0 auto 20px; background: rgba(255,255,255,.96); border-radius: 18px; display: flex; align-items: center; justify-content: center; box-shadow: 0 12px 30px rgba(12,28,78,.28); }
-    .hero-badge svg { width: 38px; height: 38px; color: var(--accent); }
+    .hero-badge { position: relative; width: 64px; height: 64px; margin: 0 auto 20px; background: rgba(255,255,255,.96); border-radius: 18px; display: flex; align-items: center; justify-content: center; box-shadow: 0 12px 30px rgba(0,67,94,.24); }
+    .hero-badge img { width: 38px; height: 38px; object-fit: contain; }
+    .logo-mark img { width: 23px; height: 23px; object-fit: contain; }
     .hero h1 { position: relative; font-size: 30px; font-weight: 800; color: #fff; letter-spacing: -0.5px; }
     .hero p { position: relative; margin-top: 10px; font-size: 15px; color: rgba(255,255,255,0.9); max-width: 460px; margin-left: auto; margin-right: auto; }
 
@@ -52,34 +53,32 @@
     footer { text-align: center; font-size: 13px; color: var(--text3); padding: 0 24px 60px; }
     footer a { color: var(--accent); text-decoration: none; }
     footer a:hover { text-decoration: underline; }
+    @media (max-width: 480px) {
+      .hero { padding: 40px 20px; }
+      .hero h1 { font-size: 28px; }
+      main { margin-top: 28px; padding: 0 16px; }
+      .card { padding: 18px 20px; }
+      .step { gap: 12px; }
+    }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 3px; }
   </style>
 </head>
 <body>
 <header>
   <div class="header-inner">
     <div class="logo-mark">
-      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-        <rect x="2" y="4" width="20" height="16" rx="2.5"/>
-        <circle cx="9" cy="10" r="2.1"/>
-        <path d="M15 9.5h3.2"/><path d="M15 13h3.2"/>
-        <path d="M5.8 16.2c.65-1.4 1.85-2.1 3.2-2.1s2.55.7 3.2 2.1"/>
-      </svg>
+      <img src="data:image/png;base64,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" alt="" width="23" height="23">
     </div>
-    <a class="logo-name" href="index.html">vCard Viewer</a>
+    <a class="logo-name" href="index.html">RenTab</a>
   </div>
 </header>
 
 <div class="hero">
   <div class="hero-badge">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-      <rect x="2" y="4" width="20" height="16" rx="2.5"/>
-      <circle cx="9" cy="10" r="2.1"/>
-      <path d="M15 9.5h3.2"/><path d="M15 13h3.2"/>
-      <path d="M5.8 16.2c.65-1.4 1.85-2.1 3.2-2.1s2.55.7 3.2 2.1"/>
-    </svg>
+      <img src="data:image/png;base64,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" alt="" width="38" height="38">
   </div>
   <h1>You're all set</h1>
-  <p>Thanks for installing vCard Viewer. Here is how to pin it and open your first contact file.</p>
+  <p>Thanks for installing RenTab. Here is how to pin it and give your first tab a name that makes sense.</p>
 </div>
 
 <main>
@@ -95,40 +94,40 @@
     <div class="step">
       <div class="step-num">2</div>
       <div class="step-body">
-        <h3>Pin vCard Viewer</h3>
-        <p>Find vCard Viewer in the list and click the pin icon next to it, so its icon stays in your toolbar.</p>
+        <h3>Pin RenTab</h3>
+        <p>Find RenTab in the list and click the pin icon next to it, so its icon stays in your toolbar.</p>
       </div>
     </div>
     <div class="step">
       <div class="step-num">3</div>
       <div class="step-body">
-        <h3>Open the side panel</h3>
-        <p>Click the vCard Viewer icon in the toolbar. The viewer opens in the side panel, next to your current tab.</p>
+        <h3>Open RenTab</h3>
+        <p>Click the RenTab icon in the toolbar. A small popup opens where you can rename your current tab.</p>
       </div>
     </div>
   </div>
 
-  <p class="section-title">Open your first file</p>
+  <p class="section-title">Rename your first tab</p>
   <div class="card">
     <div class="step">
       <div class="step-num">1</div>
       <div class="step-body">
-        <h3>Drop a contact file in</h3>
-        <p>Drag a <span class="kbd">.vcf</span> or <span class="kbd">.vcard</span> file into the panel, or press Choose file to pick one.</p>
+        <h3>Choose a page</h3>
+        <p>Open the web page you want to label, then click the RenTab icon in your toolbar.</p>
       </div>
     </div>
     <div class="step">
       <div class="step-num">2</div>
       <div class="step-body">
-        <h3>Read every contact as a card</h3>
-        <p>Each contact becomes a clean card with name, photo, phones, emails, addresses and social profiles. Files with many contacts open as a list — click any name to open that card.</p>
+        <h3>Give it a clear name</h3>
+        <p>Type a short name in the Tab title field, such as “Project notes”, “Client invoice” or “Read later”.</p>
       </div>
     </div>
     <div class="step">
       <div class="step-num">3</div>
       <div class="step-body">
-        <h3>Edit, export or copy</h3>
-        <p>Press the pencil to fix a contact and Save .vcf, export everything to CSV, or copy a single contact to the clipboard.</p>
+        <h3>Save your title</h3>
+        <p>Click Save or press <span class="kbd">Enter</span>. Your new title appears on the tab and is reapplied after a page reload. Click Remove to restore the original title.</p>
       </div>
     </div>
   </div>
@@ -136,36 +135,36 @@
   <p class="section-title">What it does</p>
   <div class="grid">
     <div class="feat">
-      <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></div>
-      <h4>Open .vcf and .vcard</h4>
-      <p>Reads contact files exported from Android, iPhone, Outlook, Gmail and macOS.</p>
+      <div class="feat-ic"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></div>
+      <h4>Rename any web page</h4>
+      <p>Replace a generic tab title with a useful name. You can also set or remove titles by right-clicking the RenTab toolbar icon.</p>
     </div>
     <div class="feat">
-      <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></div>
-      <h4>Edit and save</h4>
-      <p>Fix a name, phone or address and write a clean .vcf file back to disk.</p>
+      <div class="feat-ic"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></div>
+      <h4>Search your saved titles</h4>
+      <p>Open History to search saved names and URLs. Click an entry to reopen the page, or delete entries you no longer need.</p>
     </div>
     <div class="feat">
-      <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg></div>
-      <h4>Export to CSV</h4>
-      <p>Move contacts into Excel, Numbers or Google Sheets in one click.</p>
+      <div class="feat-ic"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7a8 8 0 0 0-14-2L3 8"/><path d="M3 3v5h5"/><path d="M4 17a8 8 0 0 0 14 2l3-3"/><path d="M21 21v-5h-5"/></svg></div>
+      <h4>Optional Chrome Sync</h4>
+      <p>Turn on Chrome Sync in Settings to sync your saved titles across devices using your Chrome account.</p>
     </div>
     <div class="feat">
-      <div class="feat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
-      <h4>Fully private</h4>
-      <p>Files are read on your computer. Nothing is uploaded, no account, works offline.</p>
+      <div class="feat-ic"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg></div>
+      <h4>Back up and restore</h4>
+      <p>Use Export JSON in Settings to save a backup. Import JSON lets you bring your saved data back into RenTab.</p>
     </div>
   </div>
 
-  <div class="note" style="margin-top:16px">
+  <div class="note" id="privacy" style="margin-top:16px">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-    <p><strong>Your contacts never leave your computer.</strong> vCard Viewer parses each file locally in the browser and keeps nothing after you close the panel.</p>
+    <p><strong>Stored locally by default.</strong> Your saved titles and history stay in your browser. If you enable Chrome Sync in Settings, your titles are stored using Chrome’s sync service so you can use them on other devices. Some protected browser pages cannot display a custom title.</p>
   </div>
 </main>
 
 <footer>
   Questions or feedback? Email <a href="mailto:rentabextension@gmail.com">rentabextension@gmail.com</a><br>
-  <a href="privacy-vcardviewer.html">Privacy Policy</a> &nbsp;·&nbsp; © 2026 vCard Viewer
+  <a href="#privacy">Privacy &amp; storage</a> &nbsp;·&nbsp; © 2026 RenTab
 </footer>
 </body>
 </html>
