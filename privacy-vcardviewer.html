@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — vCard Viewer</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --accent: #3b6fe0; --accent-dim: #eaf0fd;
+      --text: #15171c; --text2: #585f6b;
+      --border: #e4e7ec; --bg: #f7f8fa; --white: #ffffff; --radius: 14px;
+    }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif; background: var(--bg); color: var(--text); line-height: 1.75; -webkit-font-smoothing: antialiased; }
+    header { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 24px; }
+    .header-inner { max-width: 760px; margin: 0 auto; display: flex; align-items: center; gap: 12px; height: 60px; }
+    .logo-mark { width: 34px; height: 34px; background: var(--accent); border-radius: 9px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .logo-name { font-size: 15px; font-weight: 700; color: var(--text); text-decoration: none; }
+    .hero { background: linear-gradient(135deg, #5b86f5 0%, #3b6fe0 45%, #2545b0 100%); padding: 48px 24px 40px; text-align: center; }
+    .hero h1 { font-size: 28px; font-weight: 800; color: #fff; letter-spacing: -0.5px; }
+    .hero p { margin-top: 8px; font-size: 14px; color: rgba(255,255,255,0.85); }
+    main { max-width: 760px; margin: 40px auto 80px; padding: 0 24px; }
+    .card { background: var(--white); border-radius: var(--radius); border: 1px solid var(--border); padding: 28px 32px; margin-bottom: 16px; }
+    .card h2 { font-size: 16px; font-weight: 700; color: var(--text); margin-bottom: 14px; padding-bottom: 12px; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 10px; }
+    .card h2::before { content: ""; display: block; width: 4px; height: 16px; background: var(--accent); border-radius: 2px; flex-shrink: 0; }
+    .card h3 { font-size: 14px; font-weight: 700; color: var(--text); margin: 18px 0 6px; }
+    .card p { font-size: 14px; color: var(--text2); margin-bottom: 10px; }
+    .card p:last-child { margin-bottom: 0; }
+    .card ul { list-style: none; margin: 6px 0 10px; }
+    .card ul li { font-size: 14px; color: var(--text2); padding: 5px 0 5px 18px; position: relative; }
+    .card ul li::before { content: "·"; position: absolute; left: 0; color: var(--accent); font-weight: 900; font-size: 18px; line-height: 1.4; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .meta { font-size: 13px; color: var(--text2); text-align: center; margin-top: 32px; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="logo-mark">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="4" width="20" height="16" rx="2.5"/>
+        <circle cx="9" cy="10" r="2.1"/>
+        <path d="M15 9.5h3.2"/><path d="M15 13h3.2"/>
+        <path d="M5.8 16.2c.65-1.4 1.85-2.1 3.2-2.1s2.55.7 3.2 2.1"/>
+      </svg>
+    </div>
+    <a class="logo-name" href="index.html">vCard Viewer</a>
+  </div>
+</header>
+
+<div class="hero">
+  <h1>Privacy Policy</h1>
+  <p>Last Updated: September 16, 2026</p>
+</div>
+
+<main>
+  <div class="card">
+    <h2>Introduction</h2>
+    <p>This Privacy Policy ("Policy") explains the information practices of vCard Viewer ("we," "us," and "our") with respect to your use of our browser extension and any related services ("Services") we provide.</p>
+    <p>The short version: vCard Viewer opens contact files on your own computer and shows them as readable cards. Everything happens locally in your browser. We do not run a server, we do not have an account system, and we never receive your contacts.</p>
+    <p>Before you use the Services, please review this Policy. By using any part of the Services, you understand that your information will be handled as outlined here. If you do not agree, please do not use our Services.</p>
+  </div>
+
+  <div class="card">
+    <h2>Our Principles</h2>
+    <p>vCard Viewer has designed this policy to be consistent with the following principles:</p>
+    <ul>
+      <li>Privacy policies should be human readable and easy to find.</li>
+      <li>Contact data is personal, so it should never leave your device unless you deliberately send it somewhere yourself.</li>
+      <li>Data practices should meet the reasonable expectations of users.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>How Your Contact Files Are Handled</h2>
+    <p>When you open a .vcf or .vcard file — by dragging it into the side panel or choosing it with the file picker — the extension reads that file using your browser's built-in file API and parses it directly in the page. The contacts exist only in the memory of the open panel.</p>
+    <p>The extension does not save your contacts. It has no storage permission and writes nothing to disk on its own. When you close the panel or the browser, the parsed data is gone. Reopening a file loads it again from your own copy.</p>
+    <h3>Editing and Exporting</h3>
+    <p>When you edit a contact and press Save .vcf, or export contacts to CSV, the resulting file is created locally by your browser and offered to you as a normal download. It is never sent to us or to any third party.</p>
+  </div>
+
+  <div class="card">
+    <h2>Information We Collect</h2>
+    <h3>What We Collect</h3>
+    <p>Nothing. vCard Viewer does not collect, transmit, or store any user data on any server. The only data the extension ever touches is the contact file you choose to open, and that data stays on your own computer as described above.</p>
+    <h3>What We Do Not Do</h3>
+    <p>vCard Viewer does not use analytics, does not track your browsing activity, does not require an account or sign-in, does not show ads, and does not collect your name, email address, or any other personal information.</p>
+  </div>
+
+  <div class="card">
+    <h2>Links to Social Profiles</h2>
+    <p>If a contact card contains a social profile (for example Telegram, WhatsApp, GitHub or LinkedIn), the extension shows it as a link built from the value already inside your file. If you click that link, your browser opens the corresponding third-party website in a new tab, exactly as clicking any link would. vCard Viewer does not send your contact data to those sites; it only opens the address when you choose to click it. Those third-party sites have their own privacy policies, which we do not control.</p>
+  </div>
+
+  <div class="card">
+    <h2>How We Use Your Information</h2>
+    <p>Because your contacts are read locally and never reach us, there is nothing for us to use. The extension only does, on your own device, what you asked it to: show your contacts as cards, let you edit them, and let you export them.</p>
+  </div>
+
+  <div class="card">
+    <h2>When We Disclose Your Information</h2>
+    <p>We do not collect or store your contact data on our own servers, so we have no data to disclose to third parties, service providers, or anyone else.</p>
+  </div>
+
+  <div class="card">
+    <h2>Your Choices and Data Subject Rights</h2>
+    <p>You are always in full control of your data because it never leaves your device. You can close the panel to clear the loaded contacts, choose not to open a file, or uninstall the extension at any time. Individuals in the European Economic Area ("EEA") and other jurisdictions have certain legal rights regarding personal data; because vCard Viewer holds none of your data on any server, those rights are already exercised directly by you on your own machine. If you have questions about this, you may email us at <a href="mailto:rentabextension@gmail.com">rentabextension@gmail.com</a>.</p>
+  </div>
+
+  <div class="card">
+    <h2>Children</h2>
+    <p>The Services are intended for users over the age of 18 and are not directed at children under the age of 13. Because we collect no personal information, we do not knowingly collect any from children. If you believe a child has somehow provided us information, contact us and we will address it.</p>
+  </div>
+
+  <div class="card">
+    <h2>Data Retention</h2>
+    <p>We retain no user data, because we never receive any. Any contact file you open stays on your own device under your own control for as long as you keep it there.</p>
+  </div>
+
+  <div class="card">
+    <h2>Changes to this Privacy Policy</h2>
+    <p>We will continue to evaluate this Privacy Policy as we update the extension, and we may make changes accordingly. We will post any changes here and revise the date last updated above. We encourage you to check this page periodically to stay informed.</p>
+  </div>
+
+  <div class="card">
+    <h2>Questions</h2>
+    <p>If you have any questions about this Privacy Policy or our privacy practices, you can contact us at: <a href="mailto:rentabextension@gmail.com">rentabextension@gmail.com</a></p>
+  </div>
+
+  <p class="meta">© 2026 vCard Viewer &nbsp;</p>
+</main>
+</body>
+</html>
