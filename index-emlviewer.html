@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EML &amp; MSG Viewer — Get Started</title>
+  <meta name="description" content="EML &amp; MSG Viewer is installed. Pin it to your toolbar and open .eml, .msg and winmail.dat files in Chrome's side panel.">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --accent: #6b5bd2; --accent-hover: #5747bd; --accent-dim: #efedfb;
+      --text: #1d1b26; --text2: #5c596f; --text3: #8d8aa0;
+      --border: #e8e6f0; --bg: #f7f6fb; --white: #ffffff; --radius: 16px;
+    }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif; background: var(--bg); color: var(--text); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    header { background: var(--white); border-bottom: 1px solid var(--border); padding: 0 24px; }
+    .header-inner { max-width: 860px; margin: 0 auto; display: flex; align-items: center; gap: 12px; height: 62px; }
+    .logo-mark { width: 34px; height: 34px; background: var(--accent); border-radius: 9px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #fff; }
+    .logo-mark svg { width: 20px; height: 20px; }
+    .logo-name { font-size: 15px; font-weight: 700; color: var(--text); text-decoration: none; }
+    .hero { background: linear-gradient(135deg, #8b7de3 0%, #6b5bd2 50%, #4c3eaa 100%); padding: 56px 24px 52px; text-align: center; position: relative; overflow: hidden; }
+    .hero::before { content: ""; position: absolute; width: 520px; height: 520px; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,.14) 0%, rgba(255,255,255,0) 68%); top: -240px; right: -120px; }
+    .hero-badge { position: relative; width: 64px; height: 64px; margin: 0 auto 20px; background: rgba(255,255,255,.96); border-radius: 18px; display: flex; align-items: center; justify-content: center; box-shadow: 0 12px 30px rgba(40,25,110,.3); color: var(--accent); }
+    .hero-badge svg { width: 38px; height: 38px; }
+    .hero h1 { position: relative; font-size: 30px; font-weight: 800; color: #fff; letter-spacing: -0.5px; }
+    .hero p { position: relative; margin-top: 10px; font-size: 15px; color: rgba(255,255,255,0.9); max-width: 500px; margin-left: auto; margin-right: auto; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { text-align: center; font-size: 13px; color: var(--text3); padding: 0 24px 60px; }
+    @media (max-width: 560px) { .hero h1 { font-size: 25px; } }
+    main { max-width: 860px; margin: 40px auto 80px; padding: 0 24px; }
+    .section-title { font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--text3); margin: 8px 0 16px; }
+    .card { background: var(--white); border-radius: var(--radius); border: 1px solid var(--border); padding: 26px 30px; margin-bottom: 16px; }
+    @media (max-width: 560px) { .card { padding: 20px 20px; } }
+    .step { display: flex; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--border); }
+    .step:last-child { border-bottom: none; }
+    .step-num { flex-shrink: 0; width: 30px; height: 30px; border-radius: 50%; background: var(--accent-dim); color: var(--accent); font-weight: 700; font-size: 14px; display: flex; align-items: center; justify-content: center; }
+    .step-body h3 { font-size: 15px; font-weight: 700; margin-bottom: 3px; }
+    .step-body p { font-size: 14px; color: var(--text2); }
+    .kbd { display: inline-flex; align-items: center; justify-content: center; gap: 4px; min-width: 22px; height: 22px; padding: 0 6px; margin: 0 2px; background: var(--bg); border: 1px solid var(--border); border-radius: 6px; font-size: 12px; font-weight: 600; color: var(--text2); vertical-align: middle; }
+    .kbd svg { width: 14px; height: 14px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+    .feat { background: var(--white); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; }
+    .feat-ic { width: 34px; height: 34px; border-radius: 9px; background: var(--accent-dim); color: var(--accent); display: flex; align-items: center; justify-content: center; margin-bottom: 12px; }
+    .feat-ic svg { width: 19px; height: 19px; }
+    .feat h4 { font-size: 14.5px; font-weight: 700; margin-bottom: 3px; }
+    .feat p { font-size: 13.5px; color: var(--text2); }
+    .note { display: flex; gap: 12px; align-items: flex-start; background: var(--accent-dim); border-radius: 12px; padding: 16px 18px; margin-top: 16px; }
+    .note svg { width: 20px; height: 20px; color: var(--accent); flex-shrink: 0; margin-top: 2px; }
+    .note p { font-size: 13.5px; color: var(--text2); }
+    .note strong { color: var(--text); }
+  </style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="logo-mark"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228.44,89.34l-96-64a8,8,0,0,0-8.88,0l-96,64A8,8,0,0,0,24,96V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V96A8,8,0,0,0,228.44,89.34ZM96.72,152,40,192V111.53Zm16.37,8h29.82l56.63,40H56.46Zm46.19-8L216,111.53V192ZM128,41.61l81.91,54.61-67,47.78H113.11l-67-47.78Z"/></svg></div>
+    <a class="logo-name" href="index-emlviewer.html">EML &amp; MSG Viewer</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="hero-badge"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228.44,89.34l-96-64a8,8,0,0,0-8.88,0l-96,64A8,8,0,0,0,24,96V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V96A8,8,0,0,0,228.44,89.34ZM96.72,152,40,192V111.53Zm16.37,8h29.82l56.63,40H56.46Zm46.19-8L216,111.53V192ZM128,41.61l81.91,54.61-67,47.78H113.11l-67-47.78Z"/></svg></div>
+  <h1>You're all set</h1>
+  <p>Thanks for installing EML &amp; MSG Viewer. Here's how to pin it and open your first email file.</p>
+</div>
+
+<main>
+  <p class="section-title">One last step — pin it to your toolbar</p>
+  <div class="card">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <h3>Open the extensions menu</h3>
+        <p>Click the puzzle-piece icon <span class="kbd"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M220.27,158.54a8,8,0,0,0-7.7-.46,20,20,0,1,1,0-36.16A8,8,0,0,0,224,114.69V72a16,16,0,0,0-16-16H171.78a35.36,35.36,0,0,0,.22-4,36.11,36.11,0,0,0-11.36-26.24,36,36,0,0,0-60.55,23.62,36.56,36.56,0,0,0,.14,6.62H64A16,16,0,0,0,48,72v32.22a35.36,35.36,0,0,0-4-.22,36.12,36.12,0,0,0-26.24,11.36,35.7,35.7,0,0,0-9.69,27,36.08,36.08,0,0,0,33.31,33.6,35.68,35.68,0,0,0,6.62-.14V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V165.31A8,8,0,0,0,220.27,158.54ZM208,208H64V165.31a8,8,0,0,0-11.43-7.23,20,20,0,1,1,0-36.16A8,8,0,0,0,64,114.69V72h46.69a8,8,0,0,0,7.23-11.43,20,20,0,1,1,36.16,0A8,8,0,0,0,161.31,72H208v32.23a35.68,35.68,0,0,0-6.62-.14A36,36,0,0,0,204,176a35.36,35.36,0,0,0,4-.22Z"/></svg></span> in the top-right corner of Chrome.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <h3>Pin EML &amp; MSG Viewer</h3>
+        <p>Find EML &amp; MSG Viewer in the list and click the pin icon <span class="kbd"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M235.32,81.37,174.63,20.69a16,16,0,0,0-22.63,0L98.37,74.49c-10.66-3.34-35-7.37-60.4,13.14a16,16,0,0,0-1.29,23.78L85,159.71,42.34,202.34a8,8,0,0,0,11.32,11.32L96.29,171l48.29,48.29A16,16,0,0,0,155.9,224c.38,0,.75,0,1.13,0a15.93,15.93,0,0,0,11.64-6.33c19.64-26.1,17.75-47.32,13.19-60L235.33,104A16,16,0,0,0,235.32,81.37ZM224,92.69h0l-57.27,57.46a8,8,0,0,0-1.49,9.22c9.46,18.93-1.8,38.59-9.34,48.62L48,100.08c12.08-9.74,23.64-12.31,32.48-12.31A40.13,40.13,0,0,1,96.81,91a8,8,0,0,0,9.25-1.51L163.32,32,224,92.68Z"/></svg></span> next to it, so its icon stays in your toolbar.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <h3>Open the side panel</h3>
+        <p>Click the EML &amp; MSG Viewer icon in the toolbar. The viewer opens in the side panel, next to the page you're on.</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="section-title">Open your first email</p>
+  <div class="card">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <h3>Drop a file in</h3>
+        <p>Drag an <span class="kbd">.eml</span>, <span class="kbd">.msg</span> or <span class="kbd">winmail.dat</span> file into the panel, or click <b>Choose files</b>. You can open several files at once — they appear in a list with sender, subject and date.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <h3>Read it and grab the attachments</h3>
+        <p>Click a message to read it. Click an attachment to preview images, PDF and text files, use the download button to save one, or <b>Download all (.zip)</b> to save them all. Emails attached to emails open with <b>Open</b>.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <h3>Print or save as PDF</h3>
+        <p>Press <b>Print / PDF</b> (or <span class="kbd">Ctrl</span>+<span class="kbd">P</span>). The message opens in a tab with a clean header, and you can choose <b>Save as PDF</b> in the print dialog.</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="section-title">What it does</p>
+  <div class="grid">
+    <div class="feat">
+      <div class="feat-ic"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M213.66,66.34l-40-40A8,8,0,0,0,168,24H88A16,16,0,0,0,72,40V56H56A16,16,0,0,0,40,72V216a16,16,0,0,0,16,16H168a16,16,0,0,0,16-16V200h16a16,16,0,0,0,16-16V72A8,8,0,0,0,213.66,66.34ZM168,216H56V72h76.69L168,107.31v84.53c0,.06,0,.11,0,.16s0,.1,0,.16V216Zm32-32H184V104a8,8,0,0,0-2.34-5.66l-40-40A8,8,0,0,0,136,56H88V40h76.69L200,75.31Zm-56-32a8,8,0,0,1-8,8H88a8,8,0,0,1,0-16h48A8,8,0,0,1,144,152Zm0,32a8,8,0,0,1-8,8H88a8,8,0,0,1,0-16h48A8,8,0,0,1,144,184Z"/></svg></div>
+      <h4>Open .eml, .msg and winmail.dat</h4>
+      <p>Messages saved from Outlook, Gmail, Thunderbird and Apple Mail — no Outlook or mail account needed.</p>
+    </div>
+    <div class="feat">
+      <div class="feat-ic"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M209.66,122.34a8,8,0,0,1,0,11.32l-82.05,82a56,56,0,0,1-79.2-79.21L147.67,35.73a40,40,0,1,1,56.61,56.55L105,193A24,24,0,1,1,71,159L154.3,74.38A8,8,0,1,1,165.7,85.6L82.39,170.31a8,8,0,1,0,11.27,11.36L192.93,81A24,24,0,1,0,159,47L59.76,147.68a40,40,0,1,0,56.53,56.62l82.06-82A8,8,0,0,1,209.66,122.34Z"/></svg></div>
+      <h4>Attachments and inline images</h4>
+      <p>Pictures show where the sender put them. Preview, download one file or all of them as a .zip.</p>
+    </div>
+    <div class="feat">
+      <div class="feat-ic"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M247.15,212.42l-56-112a8,8,0,0,0-14.31,0l-21.71,43.43A88,88,0,0,1,108,126.93,103.65,103.65,0,0,0,135.69,64H160a8,8,0,0,0,0-16H104V32a8,8,0,0,0-16,0V48H32a8,8,0,0,0,0,16h87.63A87.76,87.76,0,0,1,96,116.35a87.74,87.74,0,0,1-19-31,8,8,0,1,0-15.08,5.34A103.63,103.63,0,0,0,84,127a87.55,87.55,0,0,1-52,17,8,8,0,0,0,0,16,103.46,103.46,0,0,0,64-22.08,104.18,104.18,0,0,0,51.44,21.31l-26.6,53.19a8,8,0,0,0,14.31,7.16L148.94,192h70.11l13.79,27.58A8,8,0,0,0,240,224a8,8,0,0,0,7.15-11.58ZM156.94,176,184,121.89,211.05,176Z"/></svg></div>
+      <h4>Any language</h4>
+      <p>Cyrillic, Japanese, Chinese, Korean and European encodings display correctly, even in old messages.</p>
+    </div>
+    <div class="feat">
+      <div class="feat-ic"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M53.92,34.62A8,8,0,1,0,42.08,45.38L61.32,66.55C25,88.84,9.38,123.2,8.69,124.76a8,8,0,0,0,0,6.5c.35.79,8.82,19.57,27.65,38.4C61.43,194.74,93.12,208,128,208a127.11,127.11,0,0,0,52.07-10.83l22,24.21a8,8,0,1,0,11.84-10.76Zm47.33,75.84,41.67,45.85a32,32,0,0,1-41.67-45.85ZM128,192c-30.78,0-57.67-11.19-79.93-33.25A133.16,133.16,0,0,1,25,128c4.69-8.79,19.66-33.39,47.35-49.38l18,19.75a48,48,0,0,0,63.66,70l14.73,16.2A112,112,0,0,1,128,192Zm6-95.43a8,8,0,0,1,3-15.72,48.16,48.16,0,0,1,38.77,42.64,8,8,0,0,1-7.22,8.71,6.39,6.39,0,0,1-.75,0,8,8,0,0,1-8-7.26A32.09,32.09,0,0,0,134,96.57Zm113.28,34.69c-.42.94-10.55,23.37-33.36,43.8a8,8,0,1,1-10.67-11.92A132.77,132.77,0,0,0,231.05,128a133.15,133.15,0,0,0-23.12-30.77C185.67,75.19,158.78,64,128,64a118.37,118.37,0,0,0-19.36,1.57A8,8,0,1,1,106,49.79,134,134,0,0,1,128,48c34.88,0,66.57,13.26,91.66,38.35,18.83,18.83,27.3,37.62,27.65,38.41A8,8,0,0,1,247.31,131.26Z"/></svg></div>
+      <h4>Tracking images blocked</h4>
+      <p>Pictures loaded from the internet stay off until you press <b>Show images</b>, so senders can't see when you opened their email.</p>
+    </div>
+  </div>
+
+  <div class="note">
+    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,40H48A16,16,0,0,0,32,56v56c0,52.72,25.52,84.67,46.93,102.19,23.06,18.86,46,25.26,47,25.53a8,8,0,0,0,4.2,0c1-.27,23.91-6.67,47-25.53C198.48,196.67,224,164.72,224,112V56A16,16,0,0,0,208,40Zm0,72c0,37.07-13.66,67.16-40.6,89.42A129.3,129.3,0,0,1,128,223.62a128.25,128.25,0,0,1-38.92-21.81C61.82,179.51,48,149.3,48,112l0-56,160,0ZM82.34,141.66a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32l-56,56a8,8,0,0,1-11.32,0Z"/></svg>
+    <p><strong>Your emails never leave your computer.</strong> EML &amp; MSG Viewer reads every file locally in the browser, works offline and never changes the original file.</p>
+  </div>
+</main>
+
+<footer>
+  Questions or feedback? Email <a href="mailto:rentabextension@gmail.com">rentabextension@gmail.com</a><br>
+  <a href="privacy-emlviewer.html">Privacy Policy</a> &nbsp;·&nbsp; © 2026 EML &amp; MSG Viewer
+</footer>
+</body>
+</html>
