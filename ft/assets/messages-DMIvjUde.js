@@ -1,0 +1,75 @@
+var e={appName:{message:`Chuyển file – Gửi file dung lượng lớn P2P`},shortDesc:{message:`Chuyển file trực tiếp giữa các thiết bị: gửi file dung lượng lớn từ máy tính sang máy tính hoặc điện thoại. Mã hóa, không cần cloud.`},storeDesc:{message:`📁 Chuyển file – Gửi file dung lượng lớn P2P là công cụ chuyển file đơn giản, gửi file mọi dung lượng trực tiếp từ thiết bị này sang thiết bị khác. Mọi dữ liệu đi thẳng giữa hai thiết bị và không bao giờ được tải lên đám mây, nên bạn có thể gửi file dung lượng lớn mà không giới hạn kích thước, không cần đăng ký và không phải chờ tải lên.
+
+🚀 Cách gửi file dung lượng lớn trong 3 bước
+1. Mở bảng chuyển file: mã 9 chữ số của bạn, ví dụ 482-915-736, đã hiện sẵn trên màn hình.
+2. Đọc mã cho người kia hoặc để họ quét mã QR bằng điện thoại.
+3. Chọn nội dung cần gửi: chuyển file P2P bắt đầu ngay khi hai thiết bị kết nối.
+
+Vậy là xong. Trên điện thoại không cần cài gì: mã sẽ mở một trang web trong bất kỳ trình duyệt di động nào, giúp bạn gửi file sang điện thoại hoặc chuyển file từ iPhone sang máy tính chỉ trong vài giây.
+
+⚡ Vì sao cách chuyển file ngang hàng này khác biệt
+➤ Mọi dung lượng: file nặng, hàng trăm ảnh hay video dài đều được, không giới hạn tải lên, chỉ phụ thuộc dung lượng ổ đĩa bên nhận.
+➤ Trực tiếp: chuyển file trực tiếp qua WebRTC, công nghệ mà trình duyệt dùng cho cuộc gọi video.
+➤ Riêng tư: dữ liệu được mã hóa trên đường truyền và không bao giờ lưu trên máy chủ của người khác.
+➤ Nhanh qua Wi-Fi: trong cùng mạng, việc chuyển file dung lượng lớn không bao giờ rời khỏi nhà hay văn phòng của bạn.
+➤ Tiếp tục khi gián đoạn: nếu mất kết nối, việc gửi sẽ tiếp tục từ chỗ đã dừng.
+➤ Được kiểm tra: mỗi khối 1 MB được xác minh bằng SHA-256, nên bản nhận được giống hệt bản gốc.
+
+📱 Hoạt động giữa mọi thiết bị của bạn
+• chuyển file từ máy tính sang máy tính: Windows, Mac, Linux hoặc Chromebook
+• chuyển file từ máy tính sang điện thoại và ngược lại
+• chuyển file từ Android sang máy tính không cần cáp
+• chuyển file từ máy tính sang iPhone qua Safari
+• chuyển file giữa các thiết bị theo cả hai chiều trong một phiên
+
+🎬 Dành cho video dung lượng lớn
+Bạn đang tìm cách gửi video dung lượng lớn? Video điện thoại, bản ghi màn hình, cảnh quay từ máy ảnh và file nén dự án thường vượt giới hạn của email và ứng dụng nhắn tin, còn tải lên đám mây có thể mất nhiều thời gian hơn chính việc chuyển file trực tiếp. Với tiện ích chuyển file này, bạn chỉ cần chọn file: chia sẻ file dung lượng lớn mất đúng thời gian mạng của bạn cần, không hơn.
+
+🔐 Quyền riêng tư bạn có thể kiểm chứng
+- Không cần tài khoản, không cần đăng ký, không cần email.
+- Mã 9 chữ số chỉ dùng được một lần và hết hạn sau 10 phút.
+- Mã sai sẽ bị từ chối và được thay ngay bằng mã mới.
+- Các từ xác minh giúp bạn chắc chắn mình đang kết nối với đúng thiết bị.
+- Tiện ích không truy cập các trang web bạn xem.
+
+🔄 Kết nối thông minh
+1️⃣ Tính năng kiểm tra mạng tích hợp cho biết mạng của bạn có hỗ trợ kết nối trực tiếp không.
+2️⃣ Nếu mất kết nối, hai thiết bị tự tìm lại nhau mà không cần mã mới.
+3️⃣ Nếu không dùng được mã ngắn, bạn có thể trao đổi mã dài.
+4️⃣ Bảng bên vẫn mở khi bạn làm việc ở tab khác, nên việc chuyển file dung lượng lớn không bị gián đoạn.
+
+💼 Ai dùng công cụ chuyển file
+▸ Chuyển sang laptop mới: chuyển dữ liệu sang máy tính mới mà không cần USB.
+▸ Nhà thiết kế và biên tập viên video gửi file dung lượng lớn cho khách hàng.
+▸ Sinh viên chia sẻ dự án và bản ghi với bạn học.
+▸ Nhóm làm việc cần chuyển file nhanh giữa các máy tính văn phòng.
+▸ Bất kỳ ai cần gửi gấp tài liệu từ máy tính sang điện thoại.
+
+🧭 Mẹo để chuyển file nhanh
+◆ Kết nối cả hai thiết bị vào cùng một Wi-Fi để có tốc độ cao nhất.
+◆ Chạy kiểm tra mạng nếu chuyển file ngang hàng không bắt đầu.
+◆ Giữ bảng mở cho đến khi thanh tiến trình đạt 100%.
+
+🌍 Giao diện có 52 ngôn ngữ và chạy trên Chrome cùng các trình duyệt dựa trên Chromium trên Windows, macOS, Linux và ChromeOS.
+
+❓ Câu hỏi thường gặp
+
+📌 Có giới hạn dung lượng file không?
+💡 Không có giới hạn cố định. Chuyển file P2P ghi dữ liệu thẳng vào ổ đĩa bên nhận, nên bạn có thể gửi file dung lượng lớn đến nhiều gigabyte.
+
+📌 File của tôi có đi qua máy chủ không?
+💡 Không. Việc chuyển file diễn ra trực tiếp giữa hai thiết bị. Máy chủ công cộng chỉ giúp các thiết bị tìm thấy nhau bằng tin nhắn ngắn đã mã hóa và không bao giờ nhận dữ liệu file.
+
+📌 Người kia có cần tiện ích không?
+💡 Không. Họ có thể mở liên kết hoặc quét mã QR trong bất kỳ trình duyệt nào, kể cả trên iPhone và Android.
+
+📌 Làm sao chuyển file từ máy tính sang máy tính trong cùng Wi-Fi?
+💡 Mở tiện ích trên cả hai máy tính, nhập mã của máy này vào máy kia rồi chọn nội dung cần gửi. Dữ liệu chỉ đi trong mạng nội bộ của bạn.
+
+📌 Điều gì xảy ra nếu mất kết nối?
+💡 Việc gửi sẽ tự động tiếp tục từ khối đã xác minh gần nhất.
+
+📌 Tôi có thể gửi nhiều file cùng lúc không?
+💡 Có. Thêm bao nhiêu file tùy ý, và hai bên có thể gửi file cho nhau trong cùng một phiên.
+
+✅ Cài đặt Chuyển file – Gửi file dung lượng lớn P2P và gửi file mọi dung lượng chỉ trong vài giây.`},btnSend:{message:`Gửi`},btnReceive:{message:`Nhận`},btnPhone:{message:`Điện thoại`},dropTitle:{message:`Thả tệp vào đây hoặc nhấp để chọn`},dropSub:{message:`Mọi dung lượng: tệp được truyền thẳng sang thiết bị kia`},addFiles:{message:`Thêm tệp`},howTitle:{message:`Cách hoạt động`},how1:{message:`1. Đọc mã của bạn cho người kia hoặc nhập mã của họ.`},how2:{message:`2. Chọn tệp trước hoặc sau khi kết nối. Tệp đi được cả hai chiều.`},how3:{message:`3. Các thiết bị kết nối trực tiếp. Tệp không bao giờ đi qua máy chủ hay đám mây.`},back:{message:`Quay lại`},home:{message:`Trang chủ`},filesSelected:{message:`Tệp cần gửi: $1 ($2)`},sendStep1:{message:`Gửi lời mời này cho người kia`},sendStep1Hint:{message:`Bằng bất kỳ cách nào: ứng dụng nhắn tin, email hoặc mã QR.`},linkHint:{message:`Người kia chưa có tiện ích? Hãy gửi liên kết: liên kết mở một trang web chạy trên mọi trình duyệt, kể cả điện thoại.`},sendStep2:{message:`Dán mã phản hồi`},sendStep2Hint:{message:`Khi mở lời mời, người kia sẽ nhận được mã phản hồi. Dán mã vào bên dưới là kết nối xong.`},phoneStep1:{message:`Quét bằng camera điện thoại`},phoneScanHint:{message:`Hướng camera điện thoại vào mã và mở liên kết. Không cần cài đặt gì.`},phoneStep2Hint:{message:`Điện thoại sẽ hiện mã phản hồi. Gửi mã cho chính bạn qua ứng dụng nhắn tin rồi dán vào đây, hoặc quét bằng webcam.`},recvStep1:{message:`Dán mã mời hoặc liên kết`},recvStep1Hint:{message:`Người gửi đã nhận mã mời trong ứng dụng này. Dán mã hoặc toàn bộ liên kết.`},recvStep2:{message:`Gửi lại mã phản hồi này`},recvStep2Hint:{message:`Gửi phản hồi cho người gửi. Ngay khi họ dán, các thiết bị sẽ kết nối.`},keepOpen:{message:`Giữ bảng này mở cho đến khi truyền xong.`},invitePlaceholder:{message:`Dán mã mời hoặc liên kết…`},answerPlaceholder:{message:`Dán mã phản hồi…`},creatingCode:{message:`Đang tạo mã…`},connecting:{message:`Đang kết nối trực tiếp…`},waitingAnswer:{message:`Đang chờ mã phản hồi…`},waitingConnect:{message:`Đang chờ người gửi…`},copyCode:{message:`Sao chép mã`},copyLink:{message:`Sao chép liên kết`},copied:{message:`Đã sao chép`},copyFailed:{message:`Không sao chép được. Hãy chọn văn bản và sao chép thủ công`},share:{message:`Chia sẻ`},showQr:{message:`Mã QR`},codeTitle:{message:`Mã kết nối dùng một lần`},connect:{message:`Kết nối`},paste:{message:`Dán`},scanQr:{message:`Quét QR`},cancel:{message:`Hủy`},remove:{message:`Xóa khỏi danh sách`},camDenied:{message:`Không mở được camera. Hãy cho phép truy cập camera hoặc dán mã.`},camNeedsTab:{message:`Bảng bên không dùng được camera. Mở ứng dụng trong một thẻ để quét.`},openInTab:{message:`Mở trong thẻ`},errBadCode:{message:`Đây không giống mã hợp lệ. Hãy kiểm tra bạn đã sao chép đầy đủ.`},errNotAnswer:{message:`Đây là mã mời, không phải mã phản hồi. Hãy dán mã phản hồi người kia gửi lại.`},errNotInvite:{message:`Đây là mã phản hồi. Ở đây cần dán lời mời (mã đầu tiên).`},errGeneric:{message:`Đã xảy ra lỗi. Vui lòng thử lại.`},errNoStorage:{message:`Trình duyệt này không thể lưu tệp nhận được vào ổ đĩa. Bạn vẫn có thể gửi tệp.`},verifyText:{message:`Đảm bảo người kia thấy đúng 4 từ giống hệt. Nếu khớp, không có ai đứng giữa.`},verifyCode:{message:`Mã xác minh: $1`},connectedLan:{message:`Kết nối trực tiếp · mạng cục bộ`},connectedNet:{message:`Kết nối trực tiếp · qua internet`},disconnect:{message:`Ngắt kết nối`},outgoing:{message:`Đang gửi`},incoming:{message:`Đang nhận`},noFilesYet:{message:`Chưa có tệp nào. Thêm tệp ở trên hoặc chờ người kia gửi.`},filesCount:{message:`tệp: $1`},eta:{message:`còn $1`},resumedFrom:{message:`tiếp tục từ $1`},integrityOk:{message:`đã kiểm tra toàn vẹn, khối: $1`},save:{message:`Lưu`},st_queued:{message:`Đang chờ`},st_connecting:{message:`Đang kết nối`},st_sending:{message:`Đang gửi`},st_receiving:{message:`Đang nhận`},st_paused:{message:`Tạm dừng`},st_verifying:{message:`Đang kiểm tra`},st_done:{message:`Xong`},st_error:{message:`Lỗi`},st_canceled:{message:`Đã hủy`},stError:{message:`Lỗi`},err_storage:{message:`không ghi được vào ổ đĩa`},err_quota:{message:`không đủ dung lượng ổ đĩa`},err_read:{message:`không đọc được tệp`},err_send:{message:`lỗi kết nối`},err_size:{message:`dung lượng không khớp`},droppedTitle:{message:`Mất kết nối`},droppedText:{message:`Không mất gì cả: quá trình truyền sẽ tiếp tục từ chỗ đã dừng. Trao đổi mã mới để kết nối lại.`},disconnectedTitle:{message:`Đã ngắt kết nối`},disconnectedText:{message:`Kết nối lại để gửi hoặc nhận thêm tệp.`},newCode:{message:`Lời mời mới`},enterCode:{message:`Nhập mã`},sessionKept:{message:`Có các lượt truyền từ phiên này.`},showTransfers:{message:`Hiện các lượt truyền`},partialsHint:{message:`Tải xuống chưa xong: $1. Kết nối lại với người gửi và chúng sẽ tiếp tục từ chỗ đã dừng.`},failTitle:{message:`Không thể kết nối trực tiếp`},failText:{message:`Điều này xảy ra khoảng 1 trong 10 lần, khi cả hai mạng đều chặn kết nối trực tiếp.`},failTip1:{message:`Đang dùng dữ liệu di động? Chuyển điện thoại sang Wi-Fi.`},failTip2:{message:`Mạng cơ quan hay trường học? Thử mạng gia đình hoặc điểm phát sóng từ điện thoại.`},failTip3:{message:`Tạo mã mới: mã phản hồi cũ có thể đã hết hạn.`},tryAgain:{message:`Thử lại`},netCheck:{message:`Kiểm tra mạng`},netIntro:{message:`Kiểm tra xem mạng này có cho phép kết nối trực tiếp giữa các thiết bị không.`},netChecking:{message:`Đang kiểm tra mạng…`},netOkTitle:{message:`Mạng của bạn ổn`},netOk:{message:`Kết nối trực tiếp sẽ hoạt động.`},netSymTitle:{message:`Mạng của bạn khá chặt`},netSym:{message:`Kết nối trực tiếp chỉ thành công nếu mạng của người kia bình thường. Nếu không được, hãy chuyển từ dữ liệu di động sang Wi-Fi.`},netBlockedTitle:{message:`Kết nối trực tiếp bị chặn`},netBlocked:{message:`Mạng này chặn lưu lượng cần cho kết nối trực tiếp (thường gặp ở mạng công ty và một số VPN). Hãy thử mạng khác.`},netUnknown:{message:`Không kiểm tra được mạng trong trình duyệt này.`},netAgain:{message:`Kiểm tra lại`},rateTitle:{message:`Bạn thích tiện ích này chứ?`},rateLater:{message:`Để sau`},footer:{message:`Tệp đi thẳng giữa các thiết bị`},sourceCode:{message:`Mã nguồn`},privacy:{message:`Chính sách quyền riêng tư`},welcomeTitle:{message:`Đã cài đặt Chuyển file – Gửi file dung lượng lớn P2P`},welcomeSub:{message:`Gửi tệp mọi dung lượng trực tiếp đến máy tính hoặc điện thoại khác. Không máy chủ, không đăng ký.`},welcomeStep1:{message:`Ghim tiện ích`},welcomeStep1Text:{message:`Nhấp vào biểu tượng mảnh ghép bên phải thanh địa chỉ và ghim Chuyển file – Gửi file dung lượng lớn P2P để luôn mở được chỉ với một cú nhấp.`},welcomeStep2:{message:`Mở bảng điều khiển`},welcomeStep2Text:{message:`Nhấp vào biểu tượng: một bảng mở ra bên phải, có sẵn mã của bạn.`},welcomeStep3:{message:`Chia sẻ mã`},welcomeStep3Text:{message:`Đọc mã ngắn cho người kia hoặc gửi liên kết. Ngay khi họ nhập, các thiết bị kết nối trực tiếp và tệp bắt đầu được truyền.`},welcomePhoneTitle:{message:`Gửi sang hoặc từ điện thoại?`},welcomePhoneText:{message:`Nhấn Điện thoại trong bảng và quét mã QR bằng camera điện thoại. Không cần cài gì trên điện thoại.`},uninstallTitle:{message:`Vì sao bạn gỡ tiện ích này?`},uninstallSub:{message:`Một câu hỏi, 10 giây. Câu trả lời của bạn giúp chúng tôi sửa điều chưa tốt.`},uninstallButton:{message:`Trả lời một câu hỏi`},reconnecting:{message:`Đang tự động kết nối lại…`},reconnectingText:{message:`Giữ ứng dụng mở trên cả hai thiết bị. Quá trình truyền sẽ tiếp tục từ chỗ đã dừng.`},reconnectManual:{message:`Dùng mã`},reconnectPrev:{message:`Kết nối lại với thiết bị trước`},reconnectGaveUp:{message:`Không thể tự động kết nối lại. Hãy trao đổi mã mới: quá trình truyền sẽ tiếp tục từ chỗ đã dừng.`},rateSub:{message:`Chạm vào một ngôi sao để đánh giá`},rateHintGood:{message:`Mở trang Cửa hàng Chrome trực tuyến để viết đánh giá`},rateHintBad:{message:`Mở một biểu mẫu ngắn: cho chúng tôi biết cần sửa gì`},rateThanks:{message:`Cảm ơn bạn! Hãy chấm cùng số sao trên Cửa hàng Chrome trực tuyến để người khác dễ tìm thấy tiện ích.`},rateSorry:{message:`Rất tiếc. Hãy cho biết vấn đề và chúng tôi sẽ sửa.`},rateStoreBtn:{message:`Đánh giá trên Cửa hàng Chrome`},rateFeedbackBtn:{message:`Báo lỗi cho chúng tôi`},shortStep1:{message:`Đọc mã này cho người kia`},shortHint:{message:`Họ nhập mã vào ứng dụng hoặc mở liên kết. Mã dùng được một lần, trong 10 phút.`},phoneShortHint:{message:`Quét bằng camera điện thoại hoặc nhập mã trên điện thoại. Không cần cài đặt gì.`},waitingPeer:{message:`Đang chờ người kia…`},useLongCodes:{message:`Không kết nối được? Trao đổi mã dài`},useShortCode:{message:`Dùng mã ngắn`},enterCodeTitle:{message:`Nhập mã`},enterCodeHint:{message:`Nhập 9 chữ số từ thiết bị kia, hoặc dán liên kết hay mã dài.`},codePlaceholder:{message:`482-915-736`},errWrongCode:{message:`Sai mã. Kiểm tra lại các chữ số: người gửi giờ đã có mã mới.`},errCodeNotFound:{message:`Không tìm thấy mã. Kiểm tra lại các chữ số: ứng dụng của người gửi phải đang mở và mã có hiệu lực 10 phút.`},codeBurned:{message:`Có người nhập sai mã, nên để an toàn một mã mới đã được tạo.`},codeExpired:{message:`Mã trước đã hết hạn, đây là mã mới.`},relaysDown:{message:`Không thể kết nối tới máy chủ kết nối từ mạng này. Hãy trao đổi mã dài.`},yourCode:{message:`Mã của bạn`},yourCodeHint:{message:`Đọc cho người kia hoặc mở liên kết trên điện thoại. Nếu không ai kết nối, sau 10 phút sẽ có mã mới.`},orEnterCode:{message:`Hoặc nhập mã của người kia`},queuedNote:{message:`Tệp sẽ bắt đầu gửi ngay khi người kia kết nối.`},savedDl:{message:`Đã lưu vào Tải xuống`},saveAgain:{message:`Lưu lại`},netOfflineTitle:{message:`Không có kết nối internet`},netSameWifi:{message:`Trong cùng một mạng Wi-Fi, việc truyền vẫn hoạt động.`}};export{e as default};

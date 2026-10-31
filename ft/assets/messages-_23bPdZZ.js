@@ -1,0 +1,75 @@
+var e={appName:{message:`Filoverførsel – send store filer P2P`},shortDesc:{message:`Direkte filoverførsel: send store filer fra pc til pc eller til mobilen. Enhver størrelse, krypteret, uden sky og oprettelse.`},storeDesc:{message:`📁 Filoverførsel – send store filer P2P er et enkelt værktøj til filoverførsel, der sender filer i alle størrelser direkte fra én enhed til en anden. Alt går direkte mellem de to enheder og bliver aldrig uploadet til en sky, så du kan sende store filer uden størrelsesgrænse, uden konto og uden at vente på en upload.
+
+🚀 Send store filer i 3 trin
+1. Åbn panelet til filoverførsel: din 9-cifrede kode, fx 482-915-736, står allerede på skærmen.
+2. Fortæl koden til den anden person, eller lad vedkommende scanne QR-koden med mobilen.
+3. Vælg, hvad du vil sende: P2P-filoverførslen starter, så snart enhederne er forbundet.
+
+Det var det. På mobilen skal intet installeres: koden åbner en webside i enhver mobilbrowser, så du kan sende filer til mobilen eller overføre filer fra iPhone til pc på få sekunder.
+
+⚡ Derfor er denne peer to peer-filoverførsel anderledes
+➤ Enhver størrelse: tunge filer, hundredvis af fotos eller lange videoer, uden uploadgrænse, kun pladsen på modtagerens disk tæller.
+➤ Direkte: en direkte filoverførsel via WebRTC, den samme teknologi, som browsere bruger til videoopkald.
+➤ Privat: data krypteres undervejs og gemmes aldrig på andres servere.
+➤ Hurtigt på wifi: på samme netværk forlader en stor filoverførsel aldrig dit hjem eller kontor.
+➤ Kan genoptages: hvis forbindelsen afbrydes, fortsætter afsendelsen, hvor den stoppede.
+➤ Kontrolleret: hver blok på 1 MB kontrolleres med SHA-256, så den modtagne kopi er identisk med originalen.
+
+📱 Virker mellem alle dine enheder
+• overføre filer fra pc til pc: Windows, Mac, Linux eller Chromebook
+• overføre filer fra pc til mobil og tilbage
+• overføre filer fra Android til pc uden kabel
+• overføre filer fra pc til iPhone via Safari
+• filoverførsel mellem enheder i begge retninger i én session
+
+🎬 Lavet til store videoer
+Vil du vide, hvordan man sender store videofiler? Mobilvideoer, skærmoptagelser, kameraoptagelser og projektarkiver rammer ofte grænserne for e-mail og chatapps, og en upload til skyen kan tage længere tid end selve den direkte filoverførsel. Med denne udvidelse til filoverførsel vælger du bare filen: at dele store filer tager den tid, dit netværk skal bruge, og ikke mere.
+
+🔐 Privatliv, du kan kontrollere
+- Ingen konto, ingen oprettelse, ingen e-mail.
+- Den 9-cifrede kode virker én gang og udløber efter 10 minutter.
+- En forkert kode afvises og erstattes straks af en ny.
+- Kontrolord lader dig bekræfte, at du er forbundet til den rigtige enhed.
+- Udvidelsen har ingen adgang til de websteder, du besøger.
+
+🔄 Smart forbindelse
+1️⃣ Et indbygget netværkstjek viser, om direkte forbindelser virker på dit netværk.
+2️⃣ Hvis forbindelsen afbrydes, finder enhederne automatisk hinanden igen, uden ny kode.
+3️⃣ Hvis den korte kode ikke kan bruges, kan I udveksle lange koder i stedet.
+4️⃣ Sidepanelet forbliver åbent, mens du arbejder i andre faner, så en stor filoverførsel ikke afbrydes.
+
+💼 Hvem bruger filoverførsel
+▸ Skift til ny bærbar: overføre data til en ny computer uden USB-nøgle.
+▸ Designere og videoredigerere, der sender store filer til kunder.
+▸ Studerende, der deler projekter og optagelser med medstuderende.
+▸ Teams, der har brug for en hurtig filoverførsel mellem kontorets computere.
+▸ Alle, der hurtigt skal sende et dokument fra computer til mobil.
+
+🧭 Tips til en hurtig filoverførsel
+◆ Hold begge enheder på det samme wifi for den højeste hastighed.
+◆ Kør netværkstjekket, hvis en peer to peer-filoverførsel ikke starter.
+◆ Lad panelet være åbent, indtil statuslinjen når 100 %.
+
+🌍 Brugerfladen findes på 52 sprog og virker i Chrome og Chromium-baserede browsere på Windows, macOS, Linux og ChromeOS.
+
+❓ Ofte stillede spørgsmål
+
+📌 Er der en størrelsesgrænse?
+💡 Der er ingen fast grænse. P2P-filoverførslen skriver data direkte til modtagerens disk, så du kan sende store filer på mange gigabyte.
+
+📌 Går mine filer gennem en server?
+💡 Nej. Filoverførslen foregår direkte mellem de to enheder. Offentlige servere hjælper kun enhederne med at finde hinanden med korte krypterede beskeder og modtager aldrig fildata.
+
+📌 Skal den anden person have udvidelsen?
+💡 Nej. Vedkommende kan åbne linket eller scanne QR-koden i enhver browser, også på iPhone og Android.
+
+📌 Hvordan overfører jeg filer fra pc til pc på samme wifi?
+💡 Åbn udvidelsen på begge computere, indtast den enes kode på den anden, og vælg, hvad du vil sende. Trafikken bliver på dit lokale netværk.
+
+📌 Hvad sker der, hvis forbindelsen mistes?
+💡 Afsendelsen genoptages automatisk fra den sidst kontrollerede blok.
+
+📌 Kan jeg sende flere filer på én gang?
+💡 Ja. Tilføj så mange filer, du vil, og begge sider kan sende filer til hinanden i samme session.
+
+✅ Installer Filoverførsel – send store filer P2P og send filer i alle størrelser på få sekunder.`},btnSend:{message:`Send`},btnReceive:{message:`Modtag`},btnPhone:{message:`Mobil`},dropTitle:{message:`Slip filer her, eller klik for at vælge`},dropSub:{message:`Alle størrelser: filerne streames direkte til den anden enhed`},addFiles:{message:`Tilføj flere filer`},howTitle:{message:`Sådan virker det`},how1:{message:`1. Fortæl den anden person din kode, eller indtast deres.`},how2:{message:`2. Vælg filer før eller efter forbindelsen. Filer kan sendes begge veje.`},how3:{message:`3. Enhederne forbindes direkte. Filerne kommer aldrig på en server eller i skyen.`},back:{message:`Tilbage`},home:{message:`Start`},filesSelected:{message:`Filer der skal sendes: $1 ($2)`},sendStep1:{message:`Send denne invitation til den anden person`},sendStep1Hint:{message:`Som du vil: chatapp, e-mail eller QR-kode.`},linkHint:{message:`Har den anden person ikke udvidelsen? Send linket: det åbner en webside, der virker i alle browsere, også på mobilen.`},sendStep2:{message:`Indsæt svarkoden`},sendStep2Hint:{message:`Når personen åbner din invitation, får vedkommende en svarkode. Indsæt den nedenfor, så er I forbundet.`},phoneStep1:{message:`Scan med mobilens kamera`},phoneScanHint:{message:`Ret mobilens kamera mod koden, og åbn linket. Intet at installere.`},phoneStep2Hint:{message:`Mobilen viser en svarkode. Send den til dig selv i en chatapp, og indsæt den her, eller scan den med webcammet.`},recvStep1:{message:`Indsæt invitationskoden eller linket`},recvStep1Hint:{message:`Afsenderen har fået en invitationskode i denne app. Indsæt koden eller hele linket.`},recvStep2:{message:`Send denne svarkode tilbage`},recvStep2Hint:{message:`Send svaret til afsenderen. Så snart det er indsat, forbindes enhederne.`},keepOpen:{message:`Hold panelet åbent, indtil overførslen er færdig.`},invitePlaceholder:{message:`Indsæt invitationskoden eller linket…`},answerPlaceholder:{message:`Indsæt svarkoden…`},creatingCode:{message:`Opretter koden…`},connecting:{message:`Forbinder direkte…`},waitingAnswer:{message:`Venter på svarkoden…`},waitingConnect:{message:`Venter på afsenderen…`},copyCode:{message:`Kopiér kode`},copyLink:{message:`Kopiér link`},copied:{message:`Kopieret`},copyFailed:{message:`Kunne ikke kopiere. Markér teksten, og kopiér manuelt`},share:{message:`Del`},showQr:{message:`QR-kode`},codeTitle:{message:`Engangskode til forbindelse`},connect:{message:`Forbind`},paste:{message:`Indsæt`},scanQr:{message:`Scan QR`},cancel:{message:`Annuller`},remove:{message:`Fjern fra listen`},camDenied:{message:`Kameraet kunne ikke åbnes. Giv adgang til kameraet, eller indsæt koden.`},camNeedsTab:{message:`Sidepanelet kan ikke bruge kameraet. Åbn appen i en fane for at scanne.`},openInTab:{message:`Åbn i en fane`},errBadCode:{message:`Det ligner ikke en gyldig kode. Tjek, at du har kopieret det hele.`},errNotAnswer:{message:`Det er en invitationskode, ikke et svar. Indsæt svaret, som den anden person sendte tilbage.`},errNotInvite:{message:`Det er en svarkode. Her skal du indsætte invitationen (den første kode).`},errGeneric:{message:`Noget gik galt. Prøv igen.`},errNoStorage:{message:`Denne browser kan ikke gemme indgående filer på disken. Du kan stadig sende filer.`},verifyText:{message:`Sørg for, at den anden person ser præcis de samme 4 ord. Hvis de passer, er der ingen imellem.`},verifyCode:{message:`Bekræftelseskode: $1`},connectedLan:{message:`Direkte forbundet · lokalt netværk`},connectedNet:{message:`Direkte forbundet · via internettet`},disconnect:{message:`Afbryd`},outgoing:{message:`Sender`},incoming:{message:`Modtager`},noFilesYet:{message:`Ingen filer endnu. Tilføj filer ovenfor, eller vent på, at den anden person sender noget.`},filesCount:{message:`filer: $1`},eta:{message:`$1 tilbage`},resumedFrom:{message:`genoptaget fra $1`},integrityOk:{message:`integritet kontrolleret, blokke: $1`},save:{message:`Gem`},st_queued:{message:`I kø`},st_connecting:{message:`Forbinder`},st_sending:{message:`Sender`},st_receiving:{message:`Modtager`},st_paused:{message:`Sat på pause`},st_verifying:{message:`Kontrollerer`},st_done:{message:`Færdig`},st_error:{message:`Fejl`},st_canceled:{message:`Annulleret`},stError:{message:`Fejl`},err_storage:{message:`kan ikke skrive til disken`},err_quota:{message:`ikke nok diskplads`},err_read:{message:`kan ikke læse filen`},err_send:{message:`forbindelsesfejl`},err_size:{message:`størrelsen passer ikke`},droppedTitle:{message:`Forbindelsen blev afbrudt`},droppedText:{message:`Intet er tabt: overførslen fortsætter, hvor den stoppede. Udveksl nye koder for at forbinde igen.`},disconnectedTitle:{message:`Afbrudt`},disconnectedText:{message:`Forbind igen for at sende eller modtage flere filer.`},newCode:{message:`Ny invitation`},enterCode:{message:`Indtast kode`},sessionKept:{message:`Der er overførsler fra denne session.`},showTransfers:{message:`Vis overførsler`},partialsHint:{message:`Ufuldførte downloads: $1. Forbind til afsenderen igen, så fortsætter de, hvor de stoppede.`},failTitle:{message:`Kunne ikke forbinde direkte`},failText:{message:`Det sker i omkring 1 ud af 10 tilfælde, når begge netværk blokerer direkte forbindelser.`},failTip1:{message:`Mobildata? Skift mobilen til wi-fi.`},failTip2:{message:`Kontor- eller skolenetværk? Prøv et hjemmenetværk eller et mobilt hotspot.`},failTip3:{message:`Opret nye koder: en gammel svarkode kan være udløbet.`},tryAgain:{message:`Prøv igen`},netCheck:{message:`Netværkstjek`},netIntro:{message:`Tjekker, om dette netværk tillader direkte forbindelser mellem enheder.`},netChecking:{message:`Tjekker netværket…`},netOkTitle:{message:`Dit netværk er i orden`},netOk:{message:`Direkte forbindelser burde virke.`},netSymTitle:{message:`Dit netværk er strengt`},netSym:{message:`En direkte forbindelse virker kun, hvis den anden persons netværk er almindeligt. Hvis det mislykkes, så skift fra mobildata til wi-fi.`},netBlockedTitle:{message:`Direkte forbindelser er blokeret`},netBlocked:{message:`Dette netværk blokerer den trafik, der skal til for en direkte forbindelse (typisk for firmanetværk og nogle VPN'er). Prøv et andet netværk.`},netUnknown:{message:`Netværket kunne ikke tjekkes i denne browser.`},netAgain:{message:`Tjek igen`},rateTitle:{message:`Kan du lide udvidelsen?`},rateLater:{message:`Ikke nu`},footer:{message:`Filerne går direkte mellem enheder`},sourceCode:{message:`Kildekode`},privacy:{message:`Privatlivspolitik`},welcomeTitle:{message:`Filoverførsel – send store filer P2P er installeret`},welcomeSub:{message:`Send filer i alle størrelser direkte til en anden computer eller mobil. Ingen server og ingen konto.`},welcomeStep1:{message:`Fastgør udvidelsen`},welcomeStep1Text:{message:`Klik på puslespilsikonet til højre for adresselinjen, og fastgør Filoverførsel – send store filer P2P, så den altid er ét klik væk.`},welcomeStep2:{message:`Åbn panelet`},welcomeStep2Text:{message:`Klik på ikonet: et panel åbner til højre med din kode klar.`},welcomeStep3:{message:`Del koden`},welcomeStep3Text:{message:`Sig den korte kode til den anden person, eller send linket. Så snart den indtastes, forbindes enhederne direkte, og filerne begynder at blive overført.`},welcomePhoneTitle:{message:`Sende til eller fra en mobil?`},welcomePhoneText:{message:`Klik på Mobil i panelet, og scan QR-koden med mobilens kamera. Der skal intet installeres på mobilen.`},uninstallTitle:{message:`Hvorfor fjernede du udvidelsen?`},uninstallSub:{message:`Ét spørgsmål, 10 sekunder. Dit svar hjælper os med at rette det, der gik galt.`},uninstallButton:{message:`Besvar ét spørgsmål`},reconnecting:{message:`Genopretter forbindelsen automatisk…`},reconnectingText:{message:`Hold appen åben på begge enheder. Overførslen fortsætter, hvor den stoppede.`},reconnectManual:{message:`Brug koder i stedet`},reconnectPrev:{message:`Forbind igen til forrige enhed`},reconnectGaveUp:{message:`Kunne ikke genoprette forbindelsen automatisk. Udveksl nye koder: overførslen fortsætter, hvor den stoppede.`},rateSub:{message:`Tryk på en stjerne for at bedømme`},rateHintGood:{message:`Åbner siden i Chrome Web Store, hvor du kan skrive en anmeldelse`},rateHintBad:{message:`Åbner en kort formular: fortæl, hvad vi skal rette`},rateThanks:{message:`Tak! Giv samme bedømmelse i Chrome Web Store: det hjælper andre med at finde udvidelsen.`},rateSorry:{message:`Det er vi kede af. Fortæl, hvad der er galt, så retter vi det.`},rateStoreBtn:{message:`Bedøm i Chrome Web Store`},rateFeedbackBtn:{message:`Fortæl, hvad der er galt`},shortStep1:{message:`Giv den anden person denne kode`},shortHint:{message:`Vedkommende indtaster den i appen eller åbner linket. Koden virker én gang i 10 minutter.`},phoneShortHint:{message:`Scan med mobilens kamera, eller indtast koden på mobilen. Intet at installere.`},waitingPeer:{message:`Venter på den anden person…`},useLongCodes:{message:`Ingen forbindelse? Udveksl lange koder i stedet`},useShortCode:{message:`Brug en kort kode`},enterCodeTitle:{message:`Indtast koden`},enterCodeHint:{message:`Indtast de 9 cifre fra den anden enhed, eller indsæt et link eller en lang kode.`},codePlaceholder:{message:`482-915-736`},errWrongCode:{message:`Forkert kode. Tjek cifrene: afsenderen har nu en ny kode.`},errCodeNotFound:{message:`Koden blev ikke fundet. Tjek cifrene: afsenderens app skal være åben, og koder gælder i 10 minutter.`},codeBurned:{message:`Nogen indtastede en forkert kode, så af sikkerhedshensyn blev der oprettet en ny.`},codeExpired:{message:`Den forrige kode er udløbet, her er en ny.`},relaysDown:{message:`Forbindelsesserverne kan ikke nås fra dette netværk. Udveksl lange koder.`},yourCode:{message:`Din kode`},yourCodeHint:{message:`Fortæl den til den anden person, eller åbn linket på en telefon. Hvis ingen forbinder, vises en ny kode efter 10 minutter.`},orEnterCode:{message:`Eller indtast den anden persons kode`},queuedNote:{message:`De begynder at blive sendt, så snart den anden person forbinder.`},savedDl:{message:`Gemt i Overførsler`},saveAgain:{message:`Gem igen`},netOfflineTitle:{message:`Ingen internetforbindelse`},netSameWifi:{message:`På samme Wi-Fi-netværk virker overførslen stadig.`}};export{e as default};

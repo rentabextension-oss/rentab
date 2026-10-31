@@ -1,0 +1,75 @@
+var e={appName:{message:`Prenos súborov – poslať veľké súbory P2P`},shortDesc:{message:`Priamy prenos súborov: poslať veľké súbory z PC do PC alebo do telefónu. Ľubovoľná veľkosť, šifrovanie, bez cloudu a registrácie.`},storeDesc:{message:`📁 Prenos súborov – poslať veľké súbory P2P je jednoduchý nástroj na prenos súborov, ktorý posiela súbory ľubovoľnej veľkosti priamo z jedného zariadenia do druhého. Všetko ide priamo medzi oboma zariadeniami a nikdy sa nenahráva do cloudu, takže môžete poslať veľké súbory bez obmedzenia veľkosti, bez registrácie a bez čakania na nahrávanie.
+
+🚀 Ako poslať veľké súbory v 3 krokoch
+1. Otvorte panel na prenos súborov: váš deväťmiestny kód, napríklad 482-915-736, je už na obrazovke.
+2. Povedzte kód druhej osobe alebo ju nechajte naskenovať QR kód telefónom.
+3. Vyberte, čo poslať: P2P prenos súborov sa začne hneď, ako sa zariadenia spoja.
+
+A je to. Do telefónu netreba nič inštalovať: kód otvorí webovú stránku v ľubovoľnom mobilnom prehliadači, takže môžete za pár sekúnd poslať súbory do telefónu alebo preniesť súbory z iPhonu do PC.
+
+⚡ Čím je tento peer to peer prenos súborov iný
+➤ Ľubovoľná veľkosť: veľké súbory, stovky fotiek alebo dlhé videá, bez limitu nahrávania, rozhoduje len miesto na disku príjemcu.
+➤ Priamo: priamy prenos súborov cez WebRTC, rovnakú technológiu, ktorú prehliadače používajú na videohovory.
+➤ Súkromne: dáta sa cestou šifrujú a nikdy sa neukladajú na cudzom serveri.
+➤ Rýchlo cez Wi-Fi: v rovnakej sieti veľký prenos súborov nikdy neopustí váš domov ani kanceláriu.
+➤ S pokračovaním: keď sa spojenie preruší, odosielanie pokračuje tam, kde skončilo.
+➤ S kontrolou: každý blok s veľkosťou 1 MB sa overuje pomocou SHA-256, takže prijatá kópia je zhodná s originálom.
+
+📱 Funguje medzi všetkými vašimi zariadeniami
+• prenos súborov z PC do PC: Windows, Mac, Linux alebo Chromebook
+• prenos súborov z PC do telefónu a späť
+• preniesť súbory z Androidu do PC bez kábla
+• preniesť súbory z PC do iPhonu cez Safari
+• prenos súborov medzi zariadeniami oboma smermi v jednej relácii
+
+🎬 Vytvorené pre veľké videá
+Neviete, ako poslať veľké video? Videá z telefónu, záznamy obrazovky, zábery z fotoaparátu a archívy projektov často narážajú na limity e-mailu a četovacích aplikácií a nahranie do cloudu môže trvať dlhšie než samotný priamy prenos súborov. V tomto rozšírení na prenos súborov len vyberiete súbor: zdieľanie veľkých súborov trvá tak dlho, ako potrebuje vaša sieť, nič viac.
+
+🔐 Súkromie, ktoré si môžete overiť
+- Bez účtu, bez registrácie, bez e-mailu.
+- Deväťmiestny kód funguje raz a po 10 minútach vyprší.
+- Nesprávny kód sa odmietne a hneď nahradí novým.
+- Overovacie slová vám umožnia potvrdiť, že ste pripojení k správnemu zariadeniu.
+- Rozšírenie nemá prístup k webom, ktoré navštevujete.
+
+🔄 Inteligentné pripojenie
+1️⃣ Vstavaná kontrola siete ukáže, či vo vašej sieti fungujú priame spojenia.
+2️⃣ Keď sa spojenie preruší, zariadenia sa automaticky znova nájdu, bez nového kódu.
+3️⃣ Ak krátky kód nejde použiť, môžete si vymeniť dlhé kódy.
+4️⃣ Bočný panel zostáva otvorený, kým pracujete na iných kartách, takže sa veľký prenos súborov nepreruší.
+
+💼 Komu sa prenos súborov hodí
+▸ Prechod na nový notebook: preniesť dáta do nového počítača bez USB kľúča.
+▸ Dizajnérom a strihačom, ktorí posielajú veľké súbory klientom.
+▸ Študentom, ktorí zdieľajú projekty a nahrávky so spolužiakmi.
+▸ Tímom, ktoré potrebujú rýchly prenos súborov medzi kancelárskymi počítačmi.
+▸ Každému, kto potrebuje rýchlo poslať dokument z počítača do telefónu.
+
+🧭 Tipy pre rýchly prenos súborov
+◆ Majte obe zariadenia v rovnakej Wi-Fi, rýchlosť je potom najvyššia.
+◆ Spustite kontrolu siete, ak sa peer to peer prenos súborov nezačne.
+◆ Nechajte panel otvorený, kým indikátor priebehu nedosiahne 100 %.
+
+🌍 Rozhranie je dostupné v 52 jazykoch a funguje v Chrome a prehliadačoch založených na Chromiu vo Windows, macOS, Linuxe a ChromeOS.
+
+❓ Časté otázky
+
+📌 Je veľkosť súboru obmedzená?
+💡 Pevný limit neexistuje. P2P prenos súborov zapisuje dáta priamo na disk príjemcu, takže môžete poslať veľké súbory s veľkosťou mnohých gigabajtov.
+
+📌 Idú moje súbory cez server?
+💡 Nie. Prenos súborov prebieha priamo medzi oboma zariadeniami. Verejné servery len pomáhajú zariadeniam nájsť sa pomocou krátkych šifrovaných správ a nikdy nedostanú dáta súborov.
+
+📌 Potrebuje druhá osoba rozšírenie?
+💡 Nie. Môže otvoriť odkaz alebo naskenovať QR kód v ľubovoľnom prehliadači, aj na iPhone a Androide.
+
+📌 Ako preniesť súbory z PC do PC v rovnakej Wi-Fi?
+💡 Otvorte rozšírenie na oboch počítačoch, zadajte kód jedného na druhom a vyberte, čo poslať. Prevádzka zostane vo vašej lokálnej sieti.
+
+📌 Čo sa stane, keď sa spojenie preruší?
+💡 Odosielanie automaticky pokračuje od posledného overeného bloku.
+
+📌 Môžem poslať viac súborov naraz?
+💡 Áno. Pridajte ľubovoľný počet súborov a obe strany si môžu v jednej relácii posielať súbory navzájom.
+
+✅ Nainštalujte Prenos súborov – poslať veľké súbory P2P a posielajte súbory ľubovoľnej veľkosti za pár sekúnd.`},btnSend:{message:`Odoslať`},btnReceive:{message:`Prijať`},btnPhone:{message:`Telefón`},dropTitle:{message:`Presuňte sem súbory alebo kliknite a vyberte ich`},dropSub:{message:`Ľubovoľná veľkosť: súbory prúdia priamo do druhého zariadenia`},addFiles:{message:`Pridať ďalšie súbory`},howTitle:{message:`Ako to funguje`},how1:{message:`1. Povedzte druhej osobe svoj kód alebo zadajte jej.`},how2:{message:`2. Vyberte súbory pred pripojením alebo po ňom. Súbory idú oboma smermi.`},how3:{message:`3. Zariadenia sa prepoja priamo. Súbory nikdy neidú cez server ani do cloudu.`},back:{message:`Späť`},home:{message:`Domov`},filesSelected:{message:`Súbory na odoslanie: $1 ($2)`},sendStep1:{message:`Pošlite túto pozvánku druhej osobe`},sendStep1Hint:{message:`Akýmkoľvek spôsobom: messengerom, e-mailom alebo QR kódom.`},linkHint:{message:`Druhá strana nemá rozšírenie? Pošlite odkaz: otvorí webovú stránku, ktorá funguje v každom prehliadači, aj v telefóne.`},sendStep2:{message:`Vložte kód odpovede`},sendStep2Hint:{message:`Po otvorení pozvánky dostane druhá osoba kód odpovede. Vložte ho nižšie a budete prepojení.`},phoneStep1:{message:`Naskenujte fotoaparátom telefónu`},phoneScanHint:{message:`Namierte fotoaparát telefónu na kód a otvorte odkaz. Nič sa neinštaluje.`},phoneStep2Hint:{message:`Telefón zobrazí kód odpovede. Pošlite si ho cez messenger a vložte sem, alebo ho naskenujte webkamerou.`},recvStep1:{message:`Vložte kód pozvánky alebo odkaz`},recvStep1Hint:{message:`Odosielateľ získal kód pozvánky v tejto aplikácii. Vložte kód alebo celý odkaz.`},recvStep2:{message:`Pošlite tento kód odpovede späť`},recvStep2Hint:{message:`Pošlite odpoveď odosielateľovi. Hneď ako ju vloží, zariadenia sa prepoja.`},keepOpen:{message:`Nechajte tento panel otvorený, kým sa prenos neskončí.`},invitePlaceholder:{message:`Vložte kód pozvánky alebo odkaz…`},answerPlaceholder:{message:`Vložte kód odpovede…`},creatingCode:{message:`Vytvára sa kód…`},connecting:{message:`Priame pripájanie…`},waitingAnswer:{message:`Čaká sa na kód odpovede…`},waitingConnect:{message:`Čaká sa na odosielateľa…`},copyCode:{message:`Kopírovať kód`},copyLink:{message:`Kopírovať odkaz`},copied:{message:`Skopírované`},copyFailed:{message:`Kopírovanie zlyhalo. Označte text a skopírujte ho ručne`},share:{message:`Zdieľať`},showQr:{message:`QR kód`},codeTitle:{message:`Jednorazový kód pripojenia`},connect:{message:`Pripojiť`},paste:{message:`Vložiť`},scanQr:{message:`Skenovať QR`},cancel:{message:`Zrušiť`},remove:{message:`Odstrániť zo zoznamu`},camDenied:{message:`Kameru sa nepodarilo spustiť. Povoľte prístup ku kamere alebo vložte kód.`},camNeedsTab:{message:`Bočný panel nemôže používať kameru. Na skenovanie otvorte aplikáciu na karte.`},openInTab:{message:`Otvoriť na karte`},errBadCode:{message:`Toto nevyzerá ako platný kód. Skontrolujte, či ste ho skopírovali celý.`},errNotAnswer:{message:`Toto je kód pozvánky, nie odpoveď. Vložte odpoveď, ktorú vám druhá osoba poslala.`},errNotInvite:{message:`Toto je kód odpovede. Sem vložte pozvánku (prvý kód).`},errGeneric:{message:`Niečo sa pokazilo. Skúste to znova.`},errNoStorage:{message:`Tento prehliadač nedokáže ukladať prichádzajúce súbory na disk. Odosielať môžete ďalej.`},verifyText:{message:`Uistite sa, že druhá osoba vidí presne tie isté 4 slová. Ak sa zhodujú, nikto nie je medzi vami.`},verifyCode:{message:`Overovací kód: $1`},connectedLan:{message:`Priame spojenie · miestna sieť`},connectedNet:{message:`Priame spojenie · cez internet`},disconnect:{message:`Odpojiť`},outgoing:{message:`Odosielanie`},incoming:{message:`Prijímanie`},noFilesYet:{message:`Zatiaľ žiadne súbory. Pridajte ich vyššie alebo počkajte, kým druhá osoba niečo pošle.`},filesCount:{message:`súborov: $1`},eta:{message:`zostáva $1`},resumedFrom:{message:`pokračované od $1`},integrityOk:{message:`integrita overená, blokov: $1`},save:{message:`Uložiť`},st_queued:{message:`V poradí`},st_connecting:{message:`Pripájanie`},st_sending:{message:`Odosielanie`},st_receiving:{message:`Prijímanie`},st_paused:{message:`Pozastavené`},st_verifying:{message:`Overovanie`},st_done:{message:`Hotovo`},st_error:{message:`Chyba`},st_canceled:{message:`Zrušené`},stError:{message:`Chyba`},err_storage:{message:`nedá sa zapisovať na disk`},err_quota:{message:`nedostatok miesta na disku`},err_read:{message:`súbor sa nedá prečítať`},err_send:{message:`chyba spojenia`},err_size:{message:`veľkosť nesedí`},droppedTitle:{message:`Spojenie prerušené`},droppedText:{message:`Nič sa nestratilo: prenos bude pokračovať tam, kde skončil. Vymeňte si nové kódy a znova sa pripojte.`},disconnectedTitle:{message:`Odpojené`},disconnectedText:{message:`Pripojte sa znova a posielajte alebo prijímajte ďalšie súbory.`},newCode:{message:`Nová pozvánka`},enterCode:{message:`Zadať kód`},sessionKept:{message:`Máte prenosy z tejto relácie.`},showTransfers:{message:`Zobraziť prenosy`},partialsHint:{message:`Nedokončené sťahovania: $1. Znova sa pripojte k odosielateľovi a budú pokračovať tam, kde skončili.`},failTitle:{message:`Priame spojenie sa nepodarilo`},failText:{message:`Stáva sa to asi v 1 z 10 prípadov, keď obe siete blokujú priame spojenia.`},failTip1:{message:`Mobilné dáta? Prepnite telefón na Wi-Fi.`},failTip2:{message:`Firemná alebo školská sieť? Skúste domácu sieť alebo hotspot z telefónu.`},failTip3:{message:`Vytvorte nové kódy: starý kód odpovede mohol vypršať.`},tryAgain:{message:`Skúsiť znova`},netCheck:{message:`Kontrola siete`},netIntro:{message:`Zistí, či táto sieť umožňuje priame spojenia medzi zariadeniami.`},netChecking:{message:`Kontroluje sa sieť…`},netOkTitle:{message:`Vaša sieť je v poriadku`},netOk:{message:`Priame spojenia by mali fungovať.`},netSymTitle:{message:`Vaša sieť je prísna`},netSym:{message:`Priame spojenie bude fungovať, len ak má druhá osoba bežnú sieť. Ak sa nepodarí, prepnite z mobilných dát na Wi-Fi.`},netBlockedTitle:{message:`Priame spojenia sú blokované`},netBlocked:{message:`Táto sieť blokuje prevádzku potrebnú na priame spojenie (typické pre firemné siete a niektoré VPN). Skúste inú sieť.`},netUnknown:{message:`V tomto prehliadači sa sieť nedá skontrolovať.`},netAgain:{message:`Skontrolovať znova`},rateTitle:{message:`Páči sa vám rozšírenie?`},rateLater:{message:`Teraz nie`},footer:{message:`Súbory idú priamo medzi zariadeniami`},sourceCode:{message:`Zdrojový kód`},privacy:{message:`Zásady ochrany súkromia`},welcomeTitle:{message:`Prenos súborov – poslať veľké súbory P2P je nainštalovaný`},welcomeSub:{message:`Posielajte súbory ľubovoľnej veľkosti priamo do iného počítača alebo telefónu. Bez servera a bez registrácie.`},welcomeStep1:{message:`Pripnite rozšírenie`},welcomeStep1Text:{message:`Kliknite na ikonu dielika skladačky vpravo od panela s adresou a pripnite Prenos súborov – poslať veľké súbory P2P, aby ste ho mali vždy po ruke.`},welcomeStep2:{message:`Otvorte panel`},welcomeStep2Text:{message:`Kliknite na ikonu: vpravo sa otvorí panel, v ktorom už bude váš kód.`},welcomeStep3:{message:`Povedzte kód`},welcomeStep3Text:{message:`Nadiktujte druhej osobe krátky kód alebo pošlite odkaz. Hneď ako ho zadá, zariadenia sa prepoja priamo a súbory sa začnú prenášať.`},welcomePhoneTitle:{message:`Posielate do telefónu alebo z neho?`},welcomePhoneText:{message:`V paneli kliknite na Telefón a naskenujte QR kód fotoaparátom telefónu. Do telefónu sa nič neinštaluje.`},uninstallTitle:{message:`Prečo ste rozšírenie odstránili?`},uninstallSub:{message:`Jedna otázka, 10 sekúnd. Vaša odpoveď nám pomôže opraviť, čo nefungovalo.`},uninstallButton:{message:`Odpovedať na jednu otázku`},reconnecting:{message:`Automatické opätovné pripájanie…`},reconnectingText:{message:`Nechajte aplikáciu otvorenú na oboch zariadeniach. Prenos bude pokračovať tam, kde skončil.`},reconnectManual:{message:`Použiť kódy`},reconnectPrev:{message:`Znova sa pripojiť k predchádzajúcemu zariadeniu`},reconnectGaveUp:{message:`Automatické pripojenie zlyhalo. Vymeňte si nové kódy: prenos bude pokračovať tam, kde skončil.`},rateSub:{message:`Ťuknite na hviezdičku a ohodnoťte`},rateHintGood:{message:`Otvorí stránku Chrome Web Store, kde môžete napísať recenziu`},rateHintBad:{message:`Otvorí krátky formulár: napíšte, čo opraviť`},rateThanks:{message:`Ďakujeme! Dajte rovnaké hodnotenie v Chrome Web Store: pomôže to ostatným nájsť rozšírenie.`},rateSorry:{message:`To nás mrzí. Napíšte, čo nefunguje, a opravíme to.`},rateStoreBtn:{message:`Ohodnotiť v Chrome Web Store`},rateFeedbackBtn:{message:`Napísať, čo nefunguje`},shortStep1:{message:`Povedzte druhej osobe tento kód`},shortHint:{message:`Zadá ho v aplikácii alebo otvorí odkaz. Kód platí raz a 10 minút.`},phoneShortHint:{message:`Naskenujte fotoaparátom telefónu alebo zadajte kód v telefóne. Nič sa neinštaluje.`},waitingPeer:{message:`Čaká sa na druhú osobu…`},useLongCodes:{message:`Nejde to? Vymeňte si dlhé kódy`},useShortCode:{message:`Použiť krátky kód`},enterCodeTitle:{message:`Zadajte kód`},enterCodeHint:{message:`Zadajte 9 číslic z druhého zariadenia alebo vložte odkaz či dlhý kód.`},codePlaceholder:{message:`482-915-736`},errWrongCode:{message:`Nesprávny kód. Skontrolujte číslice: odosielateľ má teraz nový kód.`},errCodeNotFound:{message:`Kód sa nenašiel. Skontrolujte číslice: aplikácia odosielateľa musí byť otvorená a kódy platia 10 minút.`},codeBurned:{message:`Niekto zadal nesprávny kód, preto bol z bezpečnostných dôvodov vytvorený nový.`},codeExpired:{message:`Predchádzajúci kód vypršal, tu je nový.`},relaysDown:{message:`Z tejto siete sa nedá spojiť so servermi pripojenia. Vymeňte si dlhé kódy.`},yourCode:{message:`Váš kód`},yourCodeHint:{message:`Povedzte ho druhej osobe alebo otvorte odkaz v telefóne. Ak sa nikto nepripojí, o 10 minút sa objaví nový kód.`},orEnterCode:{message:`Alebo zadajte kód druhej osoby`},queuedNote:{message:`Začnú sa odosielať, len čo sa druhá osoba pripojí.`},savedDl:{message:`Uložené do Stiahnutých súborov`},saveAgain:{message:`Uložiť znova`},netOfflineTitle:{message:`Žiadne pripojenie na internet`},netSameWifi:{message:`V rámci jednej Wi-Fi siete prenos aj tak funguje.`}};export{e as default};

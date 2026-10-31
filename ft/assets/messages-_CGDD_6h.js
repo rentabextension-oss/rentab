@@ -1,0 +1,75 @@
+var e={appName:{message:`Dosya Aktarımı – Büyük Dosya Gönderme P2P`},shortDesc:{message:`Doğrudan dosya aktarımı: büyük dosya gönderme, PC'den PC'ye veya telefona. Her boyut, şifreli, bulut ve kayıt gerektirmez.`},storeDesc:{message:`📁 Dosya Aktarımı – Büyük Dosya Gönderme P2P, her boyuttaki dosyayı bir cihazdan diğerine doğrudan gönderen basit bir dosya aktarımı aracıdır. Her şey iki cihaz arasında doğrudan gider ve asla buluta yüklenmez; böylece boyut sınırı, kayıt ya da yükleme beklemesi olmadan büyük dosya gönderebilirsiniz.
+
+🚀 3 adımda büyük dosya gönderme
+1. Dosya aktarımı panelini açın: 482-915-736 gibi 9 haneli kodunuz zaten ekranda.
+2. Kodu karşı tarafa söyleyin ya da QR kodu telefonla taratın.
+3. Ne göndereceğinizi seçin: P2P dosya aktarımı cihazlar bağlanır bağlanmaz başlar.
+
+Bu kadar. Telefona hiçbir şey kurmanız gerekmez: kod, herhangi bir mobil tarayıcıda bir web sayfası açar; böylece telefona dosya gönderebilir veya iPhone'dan bilgisayara dosya aktarabilirsiniz, hem de saniyeler içinde.
+
+⚡ Bu eşler arası dosya aktarımını farklı kılan ne
+➤ Her boyut: büyük dosyalar, yüzlerce fotoğraf veya uzun videolar; yükleme sınırı yok, yalnızca alıcının diskindeki alan önemli.
+➤ Doğrudan: tarayıcıların görüntülü görüşmede kullandığı WebRTC ile doğrudan dosya aktarımı.
+➤ Gizli: veriler yolda şifrelenir ve asla başkasının sunucusunda saklanmaz.
+➤ Wi-Fi'da hızlı: aynı ağda büyük dosya aktarımı evinizden veya ofisinizden dışarı çıkmaz.
+➤ Devam ettirilebilir: bağlantı koparsa gönderim kaldığı yerden sürer.
+➤ Doğrulanmış: her 1 MB'lık blok SHA-256 ile kontrol edilir, böylece alınan kopya orijinalin aynısıdır.
+
+📱 Tüm cihazlarınız arasında çalışır
+• bilgisayardan bilgisayara dosya aktarımı: Windows, Mac, Linux veya Chromebook
+• bilgisayardan telefona dosya aktarımı ve tersi
+• Android'den bilgisayara kablosuz dosya aktarma
+• bilgisayardan iPhone'a Safari üzerinden dosya aktarma
+• cihazlar arasında tek oturumda iki yönlü dosya aktarımı
+
+🎬 Büyük videolar için yapıldı
+Büyük video dosyası nasıl gönderilir diye mi düşünüyorsunuz? Telefon videoları, ekran kayıtları, kamera çekimleri ve proje arşivleri çoğu zaman e-posta ve mesajlaşma uygulamalarının sınırlarını aşar; buluta yüklemek de doğrudan dosya aktarımının kendisinden uzun sürebilir. Bu dosya aktarımı eklentisiyle sadece dosyayı seçersiniz: büyük dosya paylaşımı ağınız ne kadar sürerse o kadar sürer, fazlası değil.
+
+🔐 Kontrol edebileceğiniz gizlilik
+- Hesap yok, kayıt yok, e-posta yok.
+- 9 haneli kod bir kez çalışır ve 10 dakika sonra geçersiz olur.
+- Yanlış kod reddedilir ve hemen yenisiyle değiştirilir.
+- Doğrulama kelimeleri doğru cihaza bağlandığınızı teyit etmenizi sağlar.
+- Eklentinin ziyaret ettiğiniz sitelere erişimi yoktur.
+
+🔄 Akıllı bağlantı
+1️⃣ Dahili ağ kontrolü, ağınızda doğrudan bağlantıların çalışıp çalışmadığını gösterir.
+2️⃣ Bağlantı koparsa iki cihaz yeni kod gerekmeden birbirini otomatik olarak yeniden bulur.
+3️⃣ Kısa kod kullanılamazsa uzun kodları paylaşabilirsiniz.
+4️⃣ Yan panel siz başka sekmelerde çalışırken açık kalır, böylece büyük dosya aktarımı kesilmez.
+
+💼 Dosya aktarımını kimler kullanır
+▸ Yeni dizüstüne geçenler: USB bellek olmadan yeni bilgisayara veri aktarma.
+▸ Müşterilerine büyük dosya gönderen tasarımcılar ve video editörleri.
+▸ Projelerini ve kayıtlarını arkadaşlarıyla paylaşan öğrenciler.
+▸ Ofis bilgisayarları arasında hızlı dosya aktarımına ihtiyaç duyan ekipler.
+▸ Bilgisayardan telefona acilen belge göndermesi gereken herkes.
+
+🧭 Hızlı dosya aktarımı için ipuçları
+◆ En yüksek hız için iki cihazı da aynı Wi-Fi ağında tutun.
+◆ Eşler arası dosya aktarımı başlamazsa ağ kontrolünü çalıştırın.
+◆ İlerleme çubuğu %100'e ulaşana kadar paneli açık tutun.
+
+🌍 Arayüz 52 dilde sunulur ve Windows, macOS, Linux ve ChromeOS'ta Chrome ile Chromium tabanlı tarayıcılarda çalışır.
+
+❓ Sık sorulan sorular
+
+📌 Dosya boyutu sınırı var mı?
+💡 Sabit bir sınır yok. P2P dosya aktarımı verileri doğrudan alıcının diskine yazar, böylece gigabaytlarca büyük dosya gönderebilirsiniz.
+
+📌 Dosyalarım bir sunucudan geçiyor mu?
+💡 Hayır. Dosya aktarımı iki cihaz arasında doğrudan gerçekleşir. Herkese açık sunucular yalnızca cihazların kısa şifreli mesajlarla birbirini bulmasına yardım eder ve dosya verisi asla almaz.
+
+📌 Karşı tarafın eklentiye ihtiyacı var mı?
+💡 Hayır. Bağlantıyı açabilir veya QR kodu iPhone ve Android dahil herhangi bir tarayıcıda tarayabilir.
+
+📌 Aynı Wi-Fi'da bilgisayardan bilgisayara dosya nasıl aktarılır?
+💡 Eklentiyi iki bilgisayarda da açın, birinin kodunu diğerine girin ve ne göndereceğinizi seçin. Trafik yerel ağınızda kalır.
+
+📌 Bağlantı koparsa ne olur?
+💡 Gönderim, son doğrulanan bloktan otomatik olarak devam eder.
+
+📌 Aynı anda birden fazla dosya gönderebilir miyim?
+💡 Evet. İstediğiniz kadar dosya ekleyin; iki taraf da aynı oturumda birbirine dosya gönderebilir.
+
+✅ Dosya Aktarımı – Büyük Dosya Gönderme P2P eklentisini yükleyin ve her boyuttaki dosyayı birkaç saniyede gönderin.`},btnSend:{message:`Gönder`},btnReceive:{message:`Al`},btnPhone:{message:`Telefon`},dropTitle:{message:`Dosyaları buraya sürükleyin veya seçmek için tıklayın`},dropSub:{message:`Her boyut: dosyalar doğrudan diğer cihaza akış olarak gider`},addFiles:{message:`Daha fazla dosya ekle`},howTitle:{message:`Nasıl çalışır`},how1:{message:`1. Karşı tarafa kodunuzu söyleyin veya onun kodunu girin.`},how2:{message:`2. Dosyaları bağlanmadan önce veya sonra seçin. Dosyalar iki yönde de gider.`},how3:{message:`3. Cihazlar doğrudan bağlanır. Dosyalar asla bir sunucuya ya da buluta gitmez.`},back:{message:`Geri`},home:{message:`Ana sayfa`},filesSelected:{message:`Gönderilecek dosyalar: $1 ($2)`},sendStep1:{message:`Bu daveti karşı tarafa gönderin`},sendStep1Hint:{message:`İstediğiniz yolla: mesajlaşma uygulaması, e-posta veya QR kod.`},linkHint:{message:`Karşı tarafta eklenti yok mu? Bağlantıyı gönderin: telefonlar dahil her tarayıcıda çalışan bir web sayfası açılır.`},sendStep2:{message:`Yanıt kodunu yapıştırın`},sendStep2Hint:{message:`Davetinizi açan kişi bir yanıt kodu alır. Onu aşağıya yapıştırın, bağlantı kurulsun.`},phoneStep1:{message:`Telefon kamerasıyla tarayın`},phoneScanHint:{message:`Telefon kamerasını koda tutun ve bağlantıyı açın. Hiçbir şey yüklemeniz gerekmez.`},phoneStep2Hint:{message:`Telefon bir yanıt kodu gösterir. Kodu mesajlaşma uygulamasıyla kendinize gönderip buraya yapıştırın ya da web kamerasıyla tarayın.`},recvStep1:{message:`Davet kodunu veya bağlantıyı yapıştırın`},recvStep1Hint:{message:`Gönderen bu uygulamada bir davet kodu aldı. Kodu ya da bağlantının tamamını yapıştırın.`},recvStep2:{message:`Bu yanıt kodunu geri gönderin`},recvStep2Hint:{message:`Yanıtı gönderene iletin. O yapıştırır yapıştırmaz cihazlar bağlanır.`},keepOpen:{message:`Aktarım bitene kadar bu paneli açık tutun.`},invitePlaceholder:{message:`Davet kodunu veya bağlantıyı yapıştırın…`},answerPlaceholder:{message:`Yanıt kodunu yapıştırın…`},creatingCode:{message:`Kod oluşturuluyor…`},connecting:{message:`Doğrudan bağlanılıyor…`},waitingAnswer:{message:`Yanıt kodu bekleniyor…`},waitingConnect:{message:`Gönderen bekleniyor…`},copyCode:{message:`Kodu kopyala`},copyLink:{message:`Bağlantıyı kopyala`},copied:{message:`Kopyalandı`},copyFailed:{message:`Kopyalanamadı. Metni seçip elle kopyalayın`},share:{message:`Paylaş`},showQr:{message:`QR kod`},codeTitle:{message:`Tek kullanımlık bağlantı kodu`},connect:{message:`Bağlan`},paste:{message:`Yapıştır`},scanQr:{message:`QR tara`},cancel:{message:`İptal`},remove:{message:`Listeden kaldır`},camDenied:{message:`Kamera açılamadı. Kamera erişimine izin verin veya kodu yapıştırın.`},camNeedsTab:{message:`Yan panel kamerayı kullanamaz. Taramak için uygulamayı bir sekmede açın.`},openInTab:{message:`Sekmede aç`},errBadCode:{message:`Bu geçerli bir koda benzemiyor. Tamamını kopyaladığınızdan emin olun.`},errNotAnswer:{message:`Bu bir davet kodu, yanıt değil. Karşı tarafın geri gönderdiği yanıtı yapıştırın.`},errNotInvite:{message:`Bu bir yanıt kodu. Bu tarafta daveti (ilk kodu) yapıştırın.`},errGeneric:{message:`Bir sorun oluştu. Lütfen tekrar deneyin.`},errNoStorage:{message:`Bu tarayıcı gelen dosyaları diske kaydedemiyor. Yine de dosya gönderebilirsiniz.`},verifyText:{message:`Karşı tarafın tam olarak aynı 4 kelimeyi gördüğünden emin olun. Eşleşiyorsa araya kimse girmemiştir.`},verifyCode:{message:`Doğrulama kodu: $1`},connectedLan:{message:`Doğrudan bağlı · yerel ağ`},connectedNet:{message:`Doğrudan bağlı · internet üzerinden`},disconnect:{message:`Bağlantıyı kes`},outgoing:{message:`Gönderiliyor`},incoming:{message:`Alınıyor`},noFilesYet:{message:`Henüz dosya yok. Yukarıdan dosya ekleyin veya karşı tarafın bir şey göndermesini bekleyin.`},filesCount:{message:`dosya: $1`},eta:{message:`$1 kaldı`},resumedFrom:{message:`$1 noktasından devam edildi`},integrityOk:{message:`bütünlük doğrulandı, blok: $1`},save:{message:`Kaydet`},st_queued:{message:`Sırada`},st_connecting:{message:`Bağlanıyor`},st_sending:{message:`Gönderiliyor`},st_receiving:{message:`Alınıyor`},st_paused:{message:`Duraklatıldı`},st_verifying:{message:`Doğrulanıyor`},st_done:{message:`Tamamlandı`},st_error:{message:`Hata`},st_canceled:{message:`İptal edildi`},stError:{message:`Hata`},err_storage:{message:`diske yazılamıyor`},err_quota:{message:`disk alanı yetersiz`},err_read:{message:`dosya okunamıyor`},err_send:{message:`bağlantı hatası`},err_size:{message:`boyut uyuşmuyor`},droppedTitle:{message:`Bağlantı koptu`},droppedText:{message:`Hiçbir şey kaybolmadı: aktarım kaldığı yerden devam edecek. Yeniden bağlanmak için yeni kodlar paylaşın.`},disconnectedTitle:{message:`Bağlantı kesildi`},disconnectedText:{message:`Daha fazla dosya göndermek veya almak için yeniden bağlanın.`},newCode:{message:`Yeni davet`},enterCode:{message:`Kod gir`},sessionKept:{message:`Bu oturumdan aktarımlar var.`},showTransfers:{message:`Aktarımları göster`},partialsHint:{message:`Tamamlanmamış indirmeler: $1. Gönderene yeniden bağlanın, kaldıkları yerden devam edecekler.`},failTitle:{message:`Doğrudan bağlanılamadı`},failText:{message:`Bu, iki ağ da doğrudan bağlantıları engellediğinde yaklaşık 10 durumdan 1'inde olur.`},failTip1:{message:`Mobil veri mi kullanıyorsunuz? Telefonu Wi-Fi'ye geçirin.`},failTip2:{message:`Ofis veya okul ağı mı? Ev ağını ya da telefonun hotspot'unu deneyin.`},failTip3:{message:`Yeni kodlar oluşturun: eski bir yanıt kodunun süresi dolmuş olabilir.`},tryAgain:{message:`Tekrar dene`},netCheck:{message:`Ağ kontrolü`},netIntro:{message:`Bu ağın cihazlar arası doğrudan bağlantılara izin verip vermediğini kontrol eder.`},netChecking:{message:`Ağ kontrol ediliyor…`},netOkTitle:{message:`Ağınız sorunsuz`},netOk:{message:`Doğrudan bağlantılar çalışmalı.`},netSymTitle:{message:`Ağınız kısıtlayıcı`},netSym:{message:`Doğrudan bağlantı yalnızca karşı tarafın ağı sıradan ise çalışır. Olmazsa mobil veriden Wi-Fi'ye geçin.`},netBlockedTitle:{message:`Doğrudan bağlantılar engellenmiş`},netBlocked:{message:`Bu ağ, doğrudan bağlantı için gereken trafiği engelliyor (kurumsal ağlarda ve bazı VPN'lerde yaygındır). Başka bir ağ deneyin.`},netUnknown:{message:`Bu tarayıcıda ağ kontrol edilemedi.`},netAgain:{message:`Tekrar kontrol et`},rateTitle:{message:`Eklentiyi beğendiniz mi?`},rateLater:{message:`Şimdi değil`},footer:{message:`Dosyalar doğrudan cihazlar arasında gider`},sourceCode:{message:`Kaynak kodu`},privacy:{message:`Gizlilik politikası`},welcomeTitle:{message:`Dosya Aktarımı – Büyük Dosya Gönderme P2P yüklendi`},welcomeSub:{message:`Her boyutta dosyayı doğrudan başka bir bilgisayara veya telefona gönderin. Sunucu ve kayıt yok.`},welcomeStep1:{message:`Eklentiyi sabitleyin`},welcomeStep1Text:{message:`Adres çubuğunun sağındaki yapboz simgesine tıklayın ve Dosya Aktarımı – Büyük Dosya Gönderme P2P'nı sabitleyin; böylece hep bir tık uzağınızda olur.`},welcomeStep2:{message:`Paneli açın`},welcomeStep2Text:{message:`Simgeye tıklayın: sağda kodunuzun hazır olduğu bir panel açılır.`},welcomeStep3:{message:`Kodu paylaşın`},welcomeStep3Text:{message:`Kısa kodu karşı tarafa söyleyin veya bağlantıyı gönderin. Kodu girdiği anda cihazlar doğrudan bağlanır ve dosyalar aktarılmaya başlar.`},welcomePhoneTitle:{message:`Telefona veya telefondan mı göndereceksiniz?`},welcomePhoneText:{message:`Panelde Telefon'a basın ve QR kodu telefon kamerasıyla tarayın. Telefona hiçbir şey yüklemeniz gerekmez.`},uninstallTitle:{message:`Eklentiyi neden kaldırdınız?`},uninstallSub:{message:`Tek soru, 10 saniye. Yanıtınız neyin ters gittiğini düzeltmemize yardımcı olur.`},uninstallButton:{message:`Tek bir soruyu yanıtlayın`},reconnecting:{message:`Otomatik olarak yeniden bağlanılıyor…`},reconnectingText:{message:`Uygulamayı iki cihazda da açık tutun. Aktarım kaldığı yerden devam edecek.`},reconnectManual:{message:`Bunun yerine kod kullan`},reconnectPrev:{message:`Önceki cihaza yeniden bağlan`},reconnectGaveUp:{message:`Otomatik olarak yeniden bağlanılamadı. Yeni kodlar paylaşın: aktarım kaldığı yerden devam edecek.`},rateSub:{message:`Puan vermek için bir yıldıza dokunun`},rateHintGood:{message:`Yorum bırakmak için Chrome Web Store sayfası açılır`},rateHintBad:{message:`Kısa bir form açılır: neyi düzeltmemiz gerektiğini yazın`},rateThanks:{message:`Teşekkürler! Aynı puanı Chrome Web Store'da da verin: böylece başkaları da eklentiyi bulur.`},rateSorry:{message:`Üzgünüz. Sorunu yazın, düzeltelim.`},rateStoreBtn:{message:`Chrome Web Store'da puan ver`},rateFeedbackBtn:{message:`Sorunu yazın`},shortStep1:{message:`Bu kodu karşı tarafa söyleyin`},shortHint:{message:`Kodu uygulamaya girer veya bağlantıyı açar. Kod tek kullanımlıktır ve 10 dakika geçerlidir.`},phoneShortHint:{message:`Telefon kamerasıyla tarayın veya kodu telefona girin. Hiçbir şey yüklemeniz gerekmez.`},waitingPeer:{message:`Karşı taraf bekleniyor…`},useLongCodes:{message:`Bağlantı yok mu? Uzun kodları paylaşın`},useShortCode:{message:`Kısa kod kullan`},enterCodeTitle:{message:`Kodu girin`},enterCodeHint:{message:`Diğer cihazdaki 9 haneyi girin ya da bir bağlantı veya uzun kod yapıştırın.`},codePlaceholder:{message:`482-915-736`},errWrongCode:{message:`Kod yanlış. Rakamları kontrol edin: gönderenin artık yeni bir kodu var.`},errCodeNotFound:{message:`Kod bulunamadı. Rakamları kontrol edin: gönderenin uygulaması açık olmalı ve kodlar 10 dakika geçerlidir.`},codeBurned:{message:`Biri yanlış kod girdi, bu yüzden güvenlik için yeni bir kod oluşturuldu.`},codeExpired:{message:`Önceki kodun süresi doldu, işte yenisi.`},relaysDown:{message:`Bu ağdan bağlantı sunucularına ulaşılamadı. Uzun kodları paylaşın.`},yourCode:{message:`Kodunuz`},yourCodeHint:{message:`Karşı tarafa söyleyin veya bağlantıyı telefonda açın. Kimse bağlanmazsa 10 dakika sonra yeni kod görünür.`},orEnterCode:{message:`Ya da karşı tarafın kodunu girin`},queuedNote:{message:`Karşı taraf bağlanır bağlanmaz gönderilmeye başlar.`},savedDl:{message:`İndirilenler'e kaydedildi`},saveAgain:{message:`Tekrar kaydet`},netOfflineTitle:{message:`İnternet bağlantısı yok`},netSameWifi:{message:`Aynı Wi-Fi ağındaki cihazlar arasında aktarım yine çalışır.`}};export{e as default};

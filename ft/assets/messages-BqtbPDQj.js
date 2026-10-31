@@ -1,0 +1,75 @@
+var e={appName:{message:`Failide edastamine – saada suuri faile P2P`},shortDesc:{message:`Otsene failide edastamine: saada suuri faile arvutist arvutisse või telefoni. Mis tahes suurus, krüpteeritud, ilma pilve ja kontota.`},storeDesc:{message:`📁 Failide edastamine – saada suuri faile P2P on lihtne failide edastamise tööriist, mis saadab igas suuruses faile otse ühest seadmest teise. Kõik liigub otse kahe seadme vahel ega laadita kunagi pilve, nii et saate saata suuri faile ilma suurusepiiranguta, ilma registreerimiseta ja üleslaadimist ootamata.
+
+🚀 Kuidas saata suuri faile 3 sammuga
+1. Avage failide edastamise paneel: teie 9-kohaline kood, näiteks 482-915-736, on juba ekraanil.
+2. Öelge kood teisele inimesele või laske tal QR-kood telefoniga skannida.
+3. Valige, mida saata: P2P failide edastamine algab kohe, kui seadmed on ühendatud.
+
+Ongi kõik. Telefoni pole vaja midagi installida: kood avab veebilehe mis tahes mobiilibrauseris, nii et saate mõne sekundiga saata faile telefoni või tõsta faile iPhone'ist arvutisse.
+
+⚡ Mille poolest see otsene failide edastamine erineb
+➤ Mis tahes suurus: rasked failid, sajad fotod või pikad videod ilma üleslaadimispiiranguta, loeb ainult ruum vastuvõtja kettal.
+➤ Otse: otsene failide edastamine WebRTC kaudu – sama tehnoloogia, mida brauserid kasutavad videokõnedeks.
+➤ Privaatne: andmed krüpteeritakse teel ega salvestata kunagi kellegi teise serverisse.
+➤ Kiire Wi-Fi-s: samas võrgus ei lahku suurte failide edastamine kunagi teie kodust ega kontorist.
+➤ Jätkatav: kui ühendus katkeb, jätkub saatmine sealt, kus see pooleli jäi.
+➤ Kontrollitud: iga 1 MB plokki kontrollitakse SHA-256-ga, nii et saadud koopia on originaaliga identne.
+
+📱 Töötab kõigi teie seadmete vahel
+• failide edastamine arvutist arvutisse: Windows, Mac, Linux või Chromebook
+• failide edastamine arvutist telefoni ja tagasi
+• tõsta faile Androidist arvutisse ilma kaablita
+• tõsta faile arvutist iPhone'i Safari kaudu
+• failide edastamine seadmete vahel mõlemas suunas ühe seansi jooksul
+
+🎬 Loodud suurte videote jaoks
+Mõtlete, kuidas saata suurt videot? Telefonivideod, ekraanisalvestused, kaamerakaadrid ja projektiarhiivid ületavad sageli e-posti ja vestlusrakenduste piiranguid ning pilve laadimine võib võtta kauem aega kui otsene failide edastamine ise. Selle failide edastamise laiendusega valite lihtsalt faili: suurte failide jagamine võtab nii kaua, kui teie võrk vajab, mitte rohkem.
+
+🔐 Privaatsus, mida saate kontrollida
+- Ilma kontota, ilma registreerimiseta, ilma e-postita.
+- 9-kohaline kood töötab ühe korra ja aegub 10 minuti pärast.
+- Vale kood lükatakse tagasi ja asendatakse kohe uuega.
+- Kontrollsõnad lasevad kinnitada, et olete ühendatud õige seadmega.
+- Laiendusel pole juurdepääsu veebisaitidele, mida külastate.
+
+🔄 Nutikas ühendus
+1️⃣ Sisseehitatud võrgukontroll näitab, kas teie võrgus töötavad otseühendused.
+2️⃣ Kui ühendus katkeb, leiavad seadmed teineteise automaatselt uuesti, ilma uue koodita.
+3️⃣ Kui lühikest koodi ei saa kasutada, võite vahetada pikad koodid.
+4️⃣ Külgpaneel jääb avatuks, kui töötate teistes vahekaartides, nii et suurte failide edastamine ei katke.
+
+💼 Kellele failide edastamine sobib
+▸ Uuele sülearvutile kolimine: tõsta andmed uude arvutisse ilma mälupulgata.
+▸ Disaineritele ja videotoimetajatele, kes saadavad klientidele suuri faile.
+▸ Üliõpilastele, kes jagavad projekte ja salvestusi kursusekaaslastega.
+▸ Meeskondadele, kes vajavad kiiret failide edastamist kontoriarvutite vahel.
+▸ Kõigile, kes peavad kiiresti dokumendi arvutist telefoni saatma.
+
+🧭 Nõuanded kiireks failide edastamiseks
+◆ Hoidke mõlemad seadmed samas Wi-Fi-võrgus, siis on kiirus suurim.
+◆ Käivitage võrgukontroll, kui otsene failide edastamine ei alga.
+◆ Ärge sulgege paneeli enne, kui edenemisriba jõuab 100%-ni.
+
+🌍 Liides on saadaval 52 keeles ja töötab Chrome'is ning Chromiumil põhinevates brauserites Windowsis, macOS-is, Linuxis ja ChromeOS-is.
+
+❓ Korduma kippuvad küsimused
+
+📌 Kas faili suurusel on piirang?
+💡 Kindlat piirangut pole. P2P failide edastamine kirjutab andmed otse vastuvõtja kettale, nii et saate saata suuri faile, mis on mitme gigabaidi suurused.
+
+📌 Kas mu failid lähevad läbi serveri?
+💡 Ei. Failide edastamine toimub otse kahe seadme vahel. Avalikud serverid aitavad seadmetel ainult lühikeste krüpteeritud sõnumitega teineteist leida ega saa kunagi failide andmeid.
+
+📌 Kas teine inimene vajab laiendust?
+💡 Ei. Ta saab avada lingi või skannida QR-koodi mis tahes brauseris, ka iPhone'is ja Androidis.
+
+📌 Kuidas tõsta faile arvutist arvutisse samas Wi-Fi-võrgus?
+💡 Avage laiendus mõlemas arvutis, sisestage ühe kood teise ja valige, mida saata. Liiklus jääb teie kohtvõrku.
+
+📌 Mis juhtub, kui ühendus katkeb?
+💡 Saatmine jätkub automaatselt viimasest kontrollitud plokist.
+
+📌 Kas saan saata mitu faili korraga?
+💡 Jah. Lisage nii palju faile, kui soovite, ja mõlemad pooled saavad samas seansis teineteisele faile saata.
+
+✅ Installige Failide edastamine – saada suuri faile P2P ja saatke igas suuruses faile mõne sekundiga.`},btnSend:{message:`Saada`},btnReceive:{message:`Võta vastu`},btnPhone:{message:`Telefon`},dropTitle:{message:`Lohista failid siia või klõpsa valimiseks`},dropSub:{message:`Mis tahes suurus: failid liiguvad otse teise seadmesse`},addFiles:{message:`Lisa veel faile`},howTitle:{message:`Kuidas see töötab`},how1:{message:`1. Öelge oma kood teisele inimesele või sisestage tema oma.`},how2:{message:`2. Valige failid enne või pärast ühendamist. Failid liiguvad mõlemas suunas.`},how3:{message:`3. Seadmed ühenduvad otse. Failid ei satu kunagi serverisse ega pilve.`},back:{message:`Tagasi`},home:{message:`Avaleht`},filesSelected:{message:`Saadetavad failid: $1 ($2)`},sendStep1:{message:`Saada see kutse teisele inimesele`},sendStep1Hint:{message:`Mis tahes viisil: sõnumirakendus, e-post või QR-kood.`},linkHint:{message:`Teisel pole laiendust? Saada link: see avab veebilehe, mis töötab igas brauseris, ka telefonis.`},sendStep2:{message:`Kleebi vastuskood`},sendStep2Hint:{message:`Kui teine avab kutse, saab ta vastuskoodi. Kleebi see allpool ja ühendus luuakse.`},phoneStep1:{message:`Skanni telefoni kaameraga`},phoneScanHint:{message:`Suuna telefoni kaamera koodile ja ava link. Midagi pole vaja installida.`},phoneStep2Hint:{message:`Telefon näitab vastuskoodi. Saada see endale sõnumirakendusega ja kleebi siia või skanni veebikaameraga.`},recvStep1:{message:`Kleebi kutsekood või link`},recvStep1Hint:{message:`Saatja sai selles rakenduses kutsekoodi. Kleebi kood või kogu link.`},recvStep2:{message:`Saada see vastuskood tagasi`},recvStep2Hint:{message:`Saada vastus saatjale. Niipea kui ta selle kleebib, seadmed ühenduvad.`},keepOpen:{message:`Hoia see paneel avatuna, kuni edastus on lõppenud.`},invitePlaceholder:{message:`Kleebi kutsekood või link…`},answerPlaceholder:{message:`Kleebi vastuskood…`},creatingCode:{message:`Koodi loomine…`},connecting:{message:`Otseühenduse loomine…`},waitingAnswer:{message:`Ootan vastuskoodi…`},waitingConnect:{message:`Ootan saatjat…`},copyCode:{message:`Kopeeri kood`},copyLink:{message:`Kopeeri link`},copied:{message:`Kopeeritud`},copyFailed:{message:`Kopeerimine ebaõnnestus. Vali tekst ja kopeeri käsitsi`},share:{message:`Jaga`},showQr:{message:`QR-kood`},codeTitle:{message:`Ühekordne ühenduskood`},connect:{message:`Ühenda`},paste:{message:`Kleebi`},scanQr:{message:`Skanni QR`},cancel:{message:`Tühista`},remove:{message:`Eemalda loendist`},camDenied:{message:`Kaamerat ei õnnestunud avada. Luba kaamera kasutamine või kleebi kood.`},camNeedsTab:{message:`Külgpaneel ei saa kaamerat kasutada. Skannimiseks ava rakendus vahekaardil.`},openInTab:{message:`Ava vahekaardil`},errBadCode:{message:`See ei paista kehtiva koodina. Kontrolli, kas kopeerisid selle tervikuna.`},errNotAnswer:{message:`See on kutsekood, mitte vastus. Kleebi vastus, mille teine inimene tagasi saatis.`},errNotInvite:{message:`See on vastuskood. Siia kleebi kutse (esimene kood).`},errGeneric:{message:`Midagi läks valesti. Proovi uuesti.`},errNoStorage:{message:`See brauser ei saa sissetulevaid faile kettale salvestada. Saata saab endiselt.`},verifyText:{message:`Veendu, et teine inimene näeb täpselt samu 4 sõna. Kui need kattuvad, pole keegi vahel.`},verifyCode:{message:`Kontrollkood: $1`},connectedLan:{message:`Otseühendus · kohtvõrk`},connectedNet:{message:`Otseühendus · interneti kaudu`},disconnect:{message:`Katkesta ühendus`},outgoing:{message:`Saatmine`},incoming:{message:`Vastuvõtmine`},noFilesYet:{message:`Faile veel pole. Lisa need ülal või oota, kuni teine inimene midagi saadab.`},filesCount:{message:`faile: $1`},eta:{message:`jäänud $1`},resumedFrom:{message:`jätkati kohast $1`},integrityOk:{message:`terviklikkus kontrollitud, plokke: $1`},save:{message:`Salvesta`},st_queued:{message:`Järjekorras`},st_connecting:{message:`Ühendamine`},st_sending:{message:`Saatmine`},st_receiving:{message:`Vastuvõtmine`},st_paused:{message:`Peatatud`},st_verifying:{message:`Kontrollimine`},st_done:{message:`Valmis`},st_error:{message:`Viga`},st_canceled:{message:`Tühistatud`},stError:{message:`Viga`},err_storage:{message:`kettale ei saa kirjutada`},err_quota:{message:`kettal pole piisavalt ruumi`},err_read:{message:`faili ei saa lugeda`},err_send:{message:`ühenduse viga`},err_size:{message:`suurus ei klapi`},droppedTitle:{message:`Ühendus katkes`},droppedText:{message:`Midagi ei läinud kaotsi: edastus jätkub sealt, kus see peatus. Uuesti ühendamiseks vahetage uued koodid.`},disconnectedTitle:{message:`Ühendus katkestatud`},disconnectedText:{message:`Ühenda uuesti, et saata või vastu võtta rohkem faile.`},newCode:{message:`Uus kutse`},enterCode:{message:`Sisesta kood`},sessionKept:{message:`Sellest seansist on edastusi.`},showTransfers:{message:`Näita edastusi`},partialsHint:{message:`Lõpetamata allalaadimised: $1. Ühenda saatjaga uuesti ja need jätkuvad sealt, kus peatusid.`},failTitle:{message:`Otseühendus ebaõnnestus`},failText:{message:`Seda juhtub umbes 1 korral 10-st, kui mõlemad võrgud blokeerivad otseühendused.`},failTip1:{message:`Mobiilne andmeside? Lülita telefon WiFi-le.`},failTip2:{message:`Kontori- või koolivõrk? Proovi koduvõrku või telefoni kuumkohta.`},failTip3:{message:`Loo uued koodid: vana vastuskood võib olla aegunud.`},tryAgain:{message:`Proovi uuesti`},netCheck:{message:`Võrgu kontroll`},netIntro:{message:`Kontrollib, kas see võrk lubab seadmete vahel otseühendusi.`},netChecking:{message:`Võrgu kontrollimine…`},netOkTitle:{message:`Sinu võrk on korras`},netOk:{message:`Otseühendused peaksid töötama.`},netSymTitle:{message:`Sinu võrk on range`},netSym:{message:`Otseühendus õnnestub ainult siis, kui teise inimese võrk on tavaline. Kui ei õnnestu, lülitu mobiilselt andmesidelt WiFi-le.`},netBlockedTitle:{message:`Otseühendused on blokeeritud`},netBlocked:{message:`See võrk blokeerib otseühenduseks vajalikku liiklust (tavaline ettevõtete võrkudes ja mõnes VPN-is). Proovi muud võrku.`},netUnknown:{message:`Selles brauseris ei õnnestunud võrku kontrollida.`},netAgain:{message:`Kontrolli uuesti`},rateTitle:{message:`Kas laiendus meeldib sulle?`},rateLater:{message:`Mitte praegu`},footer:{message:`Failid liiguvad otse seadmete vahel`},sourceCode:{message:`Lähtekood`},privacy:{message:`Privaatsuspoliitika`},welcomeTitle:{message:`Failide edastamine – saada suuri faile P2P on installitud`},welcomeSub:{message:`Saada mis tahes suurusega faile otse teise arvutisse või telefoni. Ilma serveri ja kontota.`},welcomeStep1:{message:`Kinnita laiendus`},welcomeStep1Text:{message:`Klõpsa aadressiribast paremal oleval pusleikoonil ja kinnita Failide edastamine – saada suuri faile P2P, et see oleks alati käepärast.`},welcomeStep2:{message:`Avage paneel`},welcomeStep2Text:{message:`Klõpsake ikoonil: paremal avaneb paneel, kus on juba teie kood.`},welcomeStep3:{message:`Öelge kood`},welcomeStep3Text:{message:`Öelge lühike kood teisele inimesele või saatke link. Niipea kui ta selle sisestab, ühenduvad seadmed otse ja failid hakkavad liikuma.`},welcomePhoneTitle:{message:`Saadad telefoni või telefonist?`},welcomePhoneText:{message:`Klõpsa paneelil „Telefon“ ja skanni QR-kood telefoni kaameraga. Telefoni pole vaja midagi installida.`},uninstallTitle:{message:`Miks sa laienduse eemaldasid?`},uninstallSub:{message:`Üks küsimus, 10 sekundit. Sinu vastus aitab parandada seda, mis ei toiminud.`},uninstallButton:{message:`Vasta ühele küsimusele`},reconnecting:{message:`Ühendan automaatselt uuesti…`},reconnectingText:{message:`Hoia rakendus mõlemas seadmes avatuna. Edastus jätkub sealt, kus see peatus.`},reconnectManual:{message:`Kasuta koode`},reconnectPrev:{message:`Ühenda uuesti eelmise seadmega`},reconnectGaveUp:{message:`Automaatne uuesti ühendamine ebaõnnestus. Vahetage uued koodid: edastus jätkub sealt, kus see peatus.`},rateSub:{message:`Hindamiseks puuduta tähte`},rateHintGood:{message:`Avab Chrome Web Store'i lehe, kus saad arvustuse jätta`},rateHintBad:{message:`Avab lühikese vormi: kirjuta, mida parandada`},rateThanks:{message:`Aitäh! Anna sama hinnang ka Chrome Web Store'is: nii leiavad laienduse ka teised.`},rateSorry:{message:`Kahju. Kirjuta, mis on valesti, ja me parandame selle.`},rateStoreBtn:{message:`Hinda Chrome Web Store'is`},rateFeedbackBtn:{message:`Kirjuta, mis on valesti`},shortStep1:{message:`Öelge see kood teisele inimesele`},shortHint:{message:`Ta sisestab selle rakendusse või avab lingi. Kood kehtib üks kord, 10 minutit.`},phoneShortHint:{message:`Skannige telefoni kaameraga või sisestage kood telefonis. Midagi pole vaja installida.`},waitingPeer:{message:`Ootame teist inimest…`},useLongCodes:{message:`Ühendus ei teki? Vahetage pikki koode`},useShortCode:{message:`Kasuta lühikest koodi`},enterCodeTitle:{message:`Sisestage kood`},enterCodeHint:{message:`Sisestage teise seadme 9 numbrit või kleepige link või pikk kood.`},codePlaceholder:{message:`482-915-736`},errWrongCode:{message:`Vale kood. Kontrollige numbreid: saatjal on nüüd uus kood.`},errCodeNotFound:{message:`Koodi ei leitud. Kontrollige numbreid: saatja rakendus peab olema avatud ja koodid kehtivad 10 minutit.`},codeBurned:{message:`Keegi sisestas vale koodi, seega loodi turvalisuse huvides uus.`},codeExpired:{message:`Eelmine kood aegus, siin on uus.`},relaysDown:{message:`Sellest võrgust ei ole ühendusserverid kättesaadavad. Vahetage pikki koode.`},yourCode:{message:`Teie kood`},yourCodeHint:{message:`Öelge see teisele inimesele või avage link telefonis. Kui keegi ei ühendu, ilmub 10 minuti pärast uus kood.`},orEnterCode:{message:`Või sisestage teise inimese kood`},queuedNote:{message:`Need hakkavad liikuma kohe, kui teine inimene ühendub.`},savedDl:{message:`Salvestatud allalaadimistesse`},saveAgain:{message:`Salvesta uuesti`},netOfflineTitle:{message:`Internetiühendus puudub`},netSameWifi:{message:`Sama Wi-Fi-võrgu piires ülekanne siiski töötab.`}};export{e as default};

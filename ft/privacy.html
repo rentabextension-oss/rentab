@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; object-src 'none'; base-uri 'none'" />
     <link rel="icon" href="./icon/128.png" />
     <title>Privacy Policy</title>
-    <link rel="stylesheet" crossorigin href="./assets/styles-a-eaMGPE.css">
+    <link rel="stylesheet" crossorigin href="./assets/styles-VjySEWS1.css">
     <link rel="stylesheet" crossorigin href="./assets/pages-BnV0Kgd-.css">
   </head>
   <body class="page">
@@ -18,6 +18,7 @@
       <ul>
         <li><b>Files you choose to send</b> travel only between the two connected devices, encrypted with DTLS (built into WebRTC). Nobody else, including us, can read them.</li>
         <li><b>Connection codes</b> contain your device's network addresses (local and public IP address and port) and one-time encryption parameters. You pass them to the other person yourself, using any channel you choose. When the code is opened as a link, it is placed after "#" in the address, a part that browsers never send to the web server.</li>
+        <li><b>Anonymous usage statistics.</b> To see which features are used and how often connections succeed, the extension and the web page send anonymous events to PostHog (posthog.com), a product analytics service: for example "connected", "transfer finished" or "network check result", with coarse details such as the connection method, a size range (e.g. "100 MB–1 GB"), a speed range, the network type, the interface language and the app version. A random identifier is stored in your browser to count unique users. We never send files, file names, file contents, connection codes or anything you type; page addresses are sent without the part after "?" or "#" (where the connection code is), and the referring page is not sent. Autocapture and session recording are off. PostHog receives your IP address as part of the request; it is used only to estimate the country and is not stored with the events.</li>
         <li><b>STUN.</b> To learn its public address, your device sends a standard request to public STUN servers of Google (stun.l.google.com), Cloudflare (stun.cloudflare.com), Nextcloud (stun.nextcloud.com) and Metered (stun.relay.metered.ca). This request contains no file data and no personal information beyond your IP address, which any network request reveals.</li>
         <li><b>Short codes and automatic reconnection.</b> To find each other, the two devices exchange a few small messages through public Nostr relays and MQTT brokers. Each time, a device connects to a random few servers from this list: relay.primal.net, nos.lol, nostr.mom, relay.snort.social, offchain.pub, nostr-pub.wellorder.net, nostr.oxtr.dev, relay.nostr.net, nostr.bitcoiner.social, relay.layer.systems, relay.degmods.com, relay.nostrmap.net, relay.grigic.org, relay.agentry.com, relay.nostr.dev.br, relay.piazza.today, nostr.stakey.net, nostr.christiansass.de, nostr.rblb.it, relay.damus.io, relay.nostr.band, relay.nostr.bg, relay.0xchat.com, nostrue.com, nostr.chaima.info, broker.emqx.io, broker-cn.emqx.io, broker.hivemq.com, public.cloud.shiftr.io, test.mosquitto.org, mqtt.eclipseprojects.io, broker.mqttdashboard.com.
         <br>With a short code like 482-915-736, only the first three digits pick a public mailbox; the other six digits never leave your device. The devices use them in the CPace password protocol to agree on a key, and everything else they send (the connection details) is encrypted with that key (AES-GCM). A wrong code is rejected and the code stops working.
@@ -27,8 +28,8 @@
       </ul>
       <h2>What we do not do</h2>
       <ul>
-        <li>We do not collect, sell or share personal data.</li>
-        <li>We do not use analytics or tracking in the extension.</li>
+        <li>We do not sell or share personal data, and the statistics are used only to improve the extension.</li>
+        <li>There is no advertising, no cross-site tracking and no tracking on the websites you visit: the only analytics are the anonymous usage statistics described above.</li>
         <li>The extension does not request access to websites you visit.</li>
       </ul>
       <h2>Permissions</h2>
@@ -36,6 +37,7 @@
         <li><b>sidePanel</b> — shows the app in the browser side panel, so a transfer keeps running while you use other tabs.</li>
         <li><b>storage, unlimitedStorage</b> — stores resume progress and large partially received files locally.</li>
         <li><b>power</b> — keeps the computer awake while a transfer is running.</li>
+        <li><b>downloads</b> — saves received files to your Downloads folder. The extension does not read or change your other downloads.</li>
       </ul>
       <h2>Contact</h2>
       <p>Questions: use the feedback form linked from the extension.</p>
