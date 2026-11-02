@@ -51,14 +51,14 @@
 
 <div class="hero">
   <h1>Privacy Policy</h1>
-  <p>Last Updated: September 16, 2026</p>
+  <p>Last Updated: November 2, 2026</p>
 </div>
 
 <main>
   <div class="card">
     <h2>Introduction</h2>
     <p>This Privacy Policy ("Policy") explains the information practices of vCard Viewer ("we," "us," and "our") with respect to your use of our browser extension and any related services ("Services") we provide.</p>
-    <p>The short version: vCard Viewer opens contact files on your own computer and shows them as readable cards. Everything happens locally in your browser. We do not run a server, we do not have an account system, and we never receive your contacts.</p>
+    <p>The short version: vCard Viewer opens contact files on your own computer and shows them as readable cards. Everything happens locally in your browser. We do not run a server, we do not have an account system, and we never receive your contacts. The only thing the extension sends is anonymous usage statistics (for example "a file was opened"), described below; they never contain contact data or file names.</p>
     <p>Before you use the Services, please review this Policy. By using any part of the Services, you understand that your information will be handled as outlined here. If you do not agree, please do not use our Services.</p>
   </div>
 
@@ -75,17 +75,22 @@
   <div class="card">
     <h2>How Your Contact Files Are Handled</h2>
     <p>When you open a .vcf or .vcard file — by dragging it into the side panel or choosing it with the file picker — the extension reads that file using your browser's built-in file API and parses it directly in the page. The contacts exist only in the memory of the open panel.</p>
-    <p>The extension does not save your contacts. It has no storage permission and writes nothing to disk on its own. When you close the panel or the browser, the parsed data is gone. Reopening a file loads it again from your own copy.</p>
+    <p>The extension does not save your contacts. Apart from a few small settings (such as whether the file list is collapsed) and the anonymous statistics identifier, it writes nothing to disk on its own. When you close the panel or the browser, the parsed data is gone. Reopening a file loads it again from your own copy.</p>
+    <h3>Contact Photos</h3>
+    <p>Photos embedded in your contact file can be displayed locally. Remote photo URLs are not loaded automatically, so opening a contact does not request its photo from another server. The original photo property is preserved when you export the contact.</p>
     <h3>Editing and Exporting</h3>
     <p>When you edit a contact and press Save .vcf, or export contacts to CSV, the resulting file is created locally by your browser and offered to you as a normal download. It is never sent to us or to any third party.</p>
   </div>
 
   <div class="card">
     <h2>Information We Collect</h2>
-    <h3>What We Collect</h3>
-    <p>Nothing. vCard Viewer does not collect, transmit, or store any user data on any server. The only data the extension ever touches is the contact file you choose to open, and that data stays on your own computer as described above.</p>
+    <h3>Your Contacts</h3>
+    <p>vCard Viewer never collects, transmits or stores the contents of your contact files. The contact file you choose to open stays on your own computer as described above.</p>
+    <h3>Anonymous Usage Statistics</h3>
+    <p>To see which features are used and where the extension fails, the side panel sends anonymous events to PostHog (posthog.com), a product analytics service. Examples: "panel opened", "file opened", "file could not be read", "exported to CSV", "contact edited". Events carry only coarse details: the file extension (.vcf or .vcard), a contact-count range (e.g. "11–100"), a file-size range (e.g. "10–100 KB"), the vCard version, the interface language and the extension version. A random identifier is stored in the extension's local storage to count unique users.</p>
+    <p>We never send names, phone numbers, emails, addresses or any other contact data, file names or file contents, or anything you type. Autocapture and session recording are turned off, and no code is loaded from PostHog's servers. PostHog receives your IP address as part of each request; it is used only to estimate the country and is not stored with the events.</p>
     <h3>What We Do Not Do</h3>
-    <p>vCard Viewer does not use analytics, does not track your browsing activity, does not require an account or sign-in, does not show ads, and does not collect your name, email address, or any other personal information.</p>
+    <p>vCard Viewer does not track your browsing activity or the websites you visit, does not require an account or sign-in, does not show ads, does not sell or share data, and does not collect your name, email address, or any other personal information.</p>
   </div>
 
   <div class="card">
@@ -95,12 +100,12 @@
 
   <div class="card">
     <h2>How We Use Your Information</h2>
-    <p>Because your contacts are read locally and never reach us, there is nothing for us to use. The extension only does, on your own device, what you asked it to: show your contacts as cards, let you edit them, and let you export them.</p>
+    <p>Your contacts are read locally and never reach us. The anonymous usage statistics are used only to understand how the extension is used and to improve it. The extension only does, on your own device, what you asked it to: show your contacts as cards, let you edit them, and let you export them.</p>
   </div>
 
   <div class="card">
     <h2>When We Disclose Your Information</h2>
-    <p>We do not collect or store your contact data on our own servers, so we have no data to disclose to third parties, service providers, or anyone else.</p>
+    <p>We do not collect or store your contact data, so we have none to disclose. Anonymous usage statistics are processed by PostHog as our analytics provider; we do not sell or share them with anyone else.</p>
   </div>
 
   <div class="card">
@@ -115,7 +120,7 @@
 
   <div class="card">
     <h2>Data Retention</h2>
-    <p>We retain no user data, because we never receive any. Any contact file you open stays on your own device under your own control for as long as you keep it there.</p>
+    <p>We retain no contact data, because we never receive any. Anonymous usage statistics are kept in PostHog for as long as they are useful for improving the extension. Any contact file you open stays on your own device under your own control for as long as you keep it there.</p>
   </div>
 
   <div class="card">
