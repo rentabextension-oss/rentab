@@ -56,14 +56,14 @@
 
 <div class="hero">
   <h1>Privacy Policy</h1>
-  <p>Last Updated: October 15, 2026</p>
+  <p>Last Updated: November 2, 2026</p>
 </div>
 
 <main>
   <div class="card">
     <h2>Introduction</h2>
     <p>This Privacy Policy ("Policy") explains the information practices of EML &amp; MSG Viewer ("we," "us," and "our") with respect to your use of our browser extension and any related services ("Services") we provide.</p>
-    <p>The short version: EML &amp; MSG Viewer opens email files (.eml, .msg and winmail.dat) on your own computer and shows them in Chrome's side panel. Everything happens locally in your browser. We do not run a server, we do not have an account system, and we never receive your emails, their attachments or anything inside them.</p>
+    <p>The short version: EML &amp; MSG Viewer opens email files (.eml, .msg and winmail.dat) on your own computer and shows them in Chrome's side panel. Everything happens locally in your browser. We do not run a server, we do not have an account system, and we never receive your emails, their attachments or anything inside them. The only thing the extension sends is anonymous usage statistics (which features are used), and you can turn that off in the settings.</p>
     <p>Before you use the Services, please review this Policy. By using any part of the Services, you understand that your information will be handled as outlined here. If you do not agree, please do not use our Services.</p>
   </div>
 
@@ -79,7 +79,7 @@
 
   <div class="card">
     <h2>How Your Email Files Are Handled</h2>
-    <p>When you open an email file — by dragging it into the side panel or choosing it with the file picker — the extension reads that file using your browser's built-in file API and parses it inside the extension itself. The message exists only in the memory of the open panel. The extension has no permission to access websites and makes no network requests with your data.</p>
+    <p>When you open an email file — by dragging it into the side panel or choosing it with the file picker — the extension reads that file using your browser's built-in file API and parses it inside the extension itself. The message exists only in the memory of the open panel. The extension has no permission to access websites and never sends the contents of your files anywhere.</p>
     <p>The extension never modifies your original file. When you close the panel or the browser, the loaded messages are gone. Reopening a file reads it again from your own copy.</p>
     <h3>Message Content</h3>
     <p>The formatted body of a message is cleaned before it is displayed and shown in an isolated frame where scripts cannot run, so a message cannot send information anywhere on its own.</p>
@@ -93,7 +93,8 @@
     <h2>Data Stored on Your Device</h2>
     <p>To make the extension convenient to use, a small amount of information is kept in your browser's extension storage:</p>
     <ul>
-      <li><strong>Settings</strong> — your theme (system, light or dark) and whether remote images are always shown. These are kept with Chrome's sync storage, so if you have Chrome Sync turned on, Google may synchronize these two settings between your own browsers. No email content is ever stored there.</li>
+      <li><strong>Settings</strong> — your theme (system, light or dark), interface language, whether remote images are always shown and whether anonymous usage statistics are on. These are kept with Chrome's sync storage, so if you have Chrome Sync turned on, Google may synchronize these settings between your own browsers. No email content is ever stored there.</li>
+      <li><strong>Usage statistics identifier</strong> — a random identifier created by the statistics library (PostHog) and kept in the extension's local storage, used only to count unique users. It is not linked to your name, email address or Google account.</li>
       <li><strong>Review prompt state</strong> — a simple counter of opened emails and whether you already answered the "rate this extension" prompt. This stays on your computer only.</li>
     </ul>
     <p>The extension does not keep a history of the files you opened. All of this information is deleted when you uninstall the extension.</p>
@@ -101,10 +102,14 @@
 
   <div class="card">
     <h2>Information We Collect</h2>
-    <h3>What We Collect</h3>
-    <p>Nothing. EML &amp; MSG Viewer does not collect, transmit, or store any user data on any server. The only data the extension ever touches is the email file you choose to open, and that data stays on your own computer as described above.</p>
+    <h3>Email Files</h3>
+    <p>Nothing. The contents of the email files you open — messages, subjects, addresses, attachments and file names — are never collected, transmitted or stored on any server. They stay on your own computer as described above.</p>
+    <h3>Anonymous Usage Statistics</h3>
+    <p>To understand which features are used and where the extension fails, it sends anonymous usage events to PostHog (posthog.com), a product analytics service. Examples of events: "file opened", "attachment downloaded", "print", "settings changed". Each event carries only coarse details: the file format (EML, MSG or TNEF) and file extension, a size range (for example "1–10 MB"), a range of the number of attachments, whether the message body is HTML or plain text, the interface language, the extension version and a random identifier used to count unique users.</p>
+    <p>We never send email contents, subjects, sender or recipient addresses, file or attachment names, or anything you type. Autocapture, session recording and page-address collection are turned off, and no code is loaded from PostHog's servers. PostHog receives your IP address as part of the network request; it is used only to estimate the country and is not stored with the events.</p>
+    <p>You can turn the statistics off at any time in the extension's Settings ("Anonymous usage statistics"). When it is off, nothing is sent.</p>
     <h3>What We Do Not Do</h3>
-    <p>EML &amp; MSG Viewer does not use analytics, does not track your browsing activity, does not read the websites you visit, does not require an account or sign-in, does not show ads, and does not collect your name, email address, or any other personal information.</p>
+    <p>EML &amp; MSG Viewer does not track your browsing activity, does not read the websites you visit, does not require an account or sign-in, does not show ads, and does not collect your name, email address, or any other personal information.</p>
   </div>
 
   <div class="card">
@@ -113,23 +118,23 @@
   </div>
 
   <div class="card">
-    <h2>Optional Feedback and Uninstall Feedback</h2>
-    <p>When the extension is removed, or when you choose to leave feedback from the review prompt, Chrome opens a page on our website asking what went wrong. Answering is entirely optional. If you choose to send it, only the reason you selected, the comment you typed, your browser version and its language are delivered to our email through the Web3Forms form service. We do not ask for your name or email address, and the extension itself sends nothing. This feedback is used only to fix problems and improve the extension.</p>
+    <h2>Optional Feedback</h2>
+    <p>When you choose 1 to 3 stars in the review prompt, Chrome opens a page on our website asking what went wrong. Answering is entirely optional. If you choose to send it, only the reason you selected, the comment you typed, your browser version and its language are delivered to our email through the Web3Forms form service. We do not ask for your name or email address, and the extension itself sends nothing. This feedback is used only to fix problems and improve the extension.</p>
   </div>
 
   <div class="card">
     <h2>How We Use Your Information</h2>
-    <p>Because your emails are read locally and never reach us, there is nothing for us to use. The extension only does, on your own device, what you asked it to: show your messages, preview and save attachments, and print.</p>
+    <p>Because your emails are read locally and never reach us, there is nothing in them for us to use. The extension only does, on your own device, what you asked it to: show your messages, preview and save attachments, and print. The anonymous usage statistics are used only to improve the extension — to see which features are used and which files fail to open.</p>
   </div>
 
   <div class="card">
     <h2>When We Disclose Your Information</h2>
-    <p>We do not collect or store your data on our own servers, so we have no data to disclose to third parties, service providers, or anyone else. We do not sell or transfer user data.</p>
+    <p>We do not sell or transfer user data. The anonymous usage statistics are processed by PostHog as our analytics provider and are not shared with anyone else. We do not store any data on our own servers.</p>
   </div>
 
   <div class="card">
     <h2>Your Choices and Data Subject Rights</h2>
-    <p>You are always in full control of your data because it never leaves your device. You can close a file or the panel to clear the loaded message, keep remote images blocked, choose not to open a file, or uninstall the extension at any time. Individuals in the European Economic Area ("EEA") and other jurisdictions have certain legal rights regarding personal data; because EML &amp; MSG Viewer holds none of your data on any server, those rights are already exercised directly by you on your own machine. If you have questions about this, you may email us at <a href="mailto:rentabextension@gmail.com">rentabextension@gmail.com</a>.</p>
+    <p>You are always in full control of your data because your email files never leave your device. You can close a file or the panel to clear the loaded message, keep remote images blocked, turn off anonymous usage statistics in the settings, choose not to open a file, or uninstall the extension at any time. Individuals in the European Economic Area ("EEA") and other jurisdictions have certain legal rights regarding personal data; because EML &amp; MSG Viewer holds no personal data on any server and the usage statistics are anonymous, those rights are largely exercised directly by you on your own machine. If you have questions about this, you may email us at <a href="mailto:rentabextension@gmail.com">rentabextension@gmail.com</a>.</p>
   </div>
 
   <div class="card">
@@ -139,7 +144,7 @@
 
   <div class="card">
     <h2>Data Retention</h2>
-    <p>We retain no user data, because we never receive any. Any email file you open stays on your own device under your own control for as long as you keep it there.</p>
+    <p>We never receive your email files. Any email file you open stays on your own device under your own control for as long as you keep it there. Anonymous usage events are kept by PostHog according to the retention period of our analytics project and are then deleted.</p>
   </div>
 
   <div class="card">
