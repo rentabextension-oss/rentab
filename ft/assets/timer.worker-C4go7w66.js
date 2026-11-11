@@ -1,0 +1,1 @@
+const e=/* @__PURE__ */ new Map;self.onmessage=t=>{let{id:n,ms:r,clear:i}=t.data;i?(clearTimeout(e.get(n)),e.delete(n)):e.set(n,setTimeout(()=>{e.delete(n),self.postMessage(n)},r??0))};
