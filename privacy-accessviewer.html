@@ -45,20 +45,20 @@
         <path d="M4.5 12c0 1.55 3.36 2.8 7.5 2.8s7.5-1.25 7.5-2.8"/>
       </svg>
     </div>
-    <span class="logo-name">MDB &amp; ACCDB Viewer</span>
+    <a class="logo-name" href="index-accessviewer.html">MDB &amp; ACCDB Viewer</a>
   </div>
 </header>
 
 <div class="hero">
   <h1>Privacy Policy</h1>
-  <p>Last Updated: October 14, 2026</p>
+  <p>Last Updated: November 18, 2026</p>
 </div>
 
 <main>
   <div class="card">
     <h2>Introduction</h2>
     <p>This Privacy Policy ("Policy") explains the information practices of MDB &amp; ACCDB Viewer ("we," "us," and "our") with respect to your use of our browser extension and any related services ("Services") we provide.</p>
-    <p>The short version: MDB &amp; ACCDB Viewer opens Microsoft Access database files on your own computer and shows their tables in Chrome's side panel. Everything happens locally in your browser. We do not run a server, we do not have an account system, and we never receive your databases or anything inside them.</p>
+    <p>The short version: MDB &amp; ACCDB Viewer opens Microsoft Access database files on your own computer and shows their tables in Chrome's side panel. Your databases are read locally in your browser. We do not run a server, we do not have an account system, and we never receive your databases or anything inside them. The extension only sends anonymous usage statistics (which features are used, never what is in your files), described below.</p>
     <p>Before you use the Services, please review this Policy. By using any part of the Services, you understand that your information will be handled as outlined here. If you do not agree, please do not use our Services.</p>
   </div>
 
@@ -74,12 +74,12 @@
 
   <div class="card">
     <h2>How Your Database Files Are Handled</h2>
-    <p>When you open an .mdb or .accdb file — by dragging it into the side panel or choosing it with the file picker — the extension reads that file using your browser's built-in file API and parses it inside the extension itself. The tables exist only in the memory of the open panel. The extension has no permission to access websites and makes no network requests with your data.</p>
+    <p>When you open an .mdb or .accdb file — by dragging it into the side panel or choosing it with the file picker — the extension reads that file using your browser's built-in file API and parses it inside the extension itself. The tables exist only in the memory of the open panel. The extension has no permission to access websites and never sends your files or their contents anywhere.</p>
     <p>The extension never modifies your original file; it opens databases read-only. When you close the panel or the browser, the loaded data is gone. Reopening a file reads it again from your own copy.</p>
     <h3>Password-Protected Databases</h3>
     <p>If a database is protected with a password, the password you type is used only to decrypt that file in the panel's memory. It is not saved, not remembered between sessions, and never sent anywhere.</p>
     <h3>SQL Queries</h3>
-    <p>SQL queries you run are executed by a database engine bundled inside the extension, on a temporary in-memory copy of the tables. Nothing is sent to a server.</p>
+    <p>SQL queries you run are executed by a database engine bundled inside the extension, on a temporary in-memory copy of the tables. Your queries are never sent to a server.</p>
     <h3>Exporting, Attachments and OLE Objects</h3>
     <p>When you export a table or query result to CSV, Excel (XLSX) or JSON, or save an attachment or OLE object from a record, the file is created locally by your browser and offered to you as a normal download. It is never sent to us or to any third party.</p>
   </div>
@@ -102,10 +102,18 @@
 
   <div class="card">
     <h2>Information We Collect</h2>
-    <h3>What We Collect</h3>
-    <p>Nothing. MDB &amp; ACCDB Viewer does not collect, transmit, or store any user data on any server. The only data the extension ever touches is the database file you choose to open, and that data stays on your own computer as described above.</p>
-    <h3>What We Do Not Do</h3>
-    <p>MDB &amp; ACCDB Viewer does not use analytics, does not track your browsing activity, does not read the websites you visit, does not require an account or sign-in, does not show ads, and does not collect your name, email address, or any other personal information.</p>
+    <h3>Anonymous Usage Statistics</h3>
+    <p>To learn which features are used and which files fail to open, the extension sends anonymous events to PostHog (posthog.com), a product analytics service. Examples: "database opened", "export", "SQL query run", "file could not be opened". Each event carries only coarse details:</p>
+    <ul>
+      <li>the file extension (for example .mdb or .accdb), the Access version, and a size range such as "1–10 MB";</li>
+      <li>ranges for the number of tables and rows, and for how long an action took;</li>
+      <li>the export format, whether a filter or sort was used, the first keyword of a query (such as SELECT) and the kind of error (such as "table not found");</li>
+      <li>the extension version, the interface language, and the browser and operating system type;</li>
+      <li>technical error reports, with file, table and column names, numbers and addresses removed from the text.</li>
+    </ul>
+    <p>A random identifier is stored in your browser so unique users can be counted. PostHog receives your IP address as part of the request; it is used only to estimate the country and is not stored with the events. Automatic click capture, page tracking and session recording are turned off.</p>
+    <h3>What We Never Collect</h3>
+    <p>We never send your database files or anything inside them: no file names, table or column names, cell values, attachments, SQL query text or passwords. MDB &amp; ACCDB Viewer does not track your browsing activity, does not read the websites you visit, does not require an account or sign-in, does not show ads, and does not collect your name, email address, or any other personal information.</p>
   </div>
 
   <div class="card">
@@ -114,18 +122,23 @@
   </div>
 
   <div class="card">
+    <h2>Optional Uninstall Feedback</h2>
+    <p>When the extension is removed, Chrome opens a page on our website asking why. Answering is entirely optional. If you choose to send it, only the reason you selected, the comment you typed, your browser version and its language are delivered to our email through the Web3Forms form service. We do not ask for your name or email address, and nothing from your databases is included. This feedback is used only to fix problems and improve the extension.</p>
+  </div>
+
+  <div class="card">
     <h2>How We Use Your Information</h2>
-    <p>Because your databases are read locally and never reach us, there is nothing for us to use. The extension only does, on your own device, what you asked it to: show your tables, run your queries, and export the results.</p>
+    <p>Your databases are read locally and never reach us. The anonymous usage statistics are used only to find bugs, see which features matter and improve the extension.</p>
   </div>
 
   <div class="card">
     <h2>When We Disclose Your Information</h2>
-    <p>We do not collect or store your data on our own servers, so we have no data to disclose to third parties, service providers, or anyone else. We do not sell or transfer user data.</p>
+    <p>We do not sell or transfer user data. The anonymous usage statistics are processed by PostHog as our analytics provider and by Web3Forms only for optional uninstall feedback; neither receives your database files or their contents.</p>
   </div>
 
   <div class="card">
     <h2>Your Choices and Data Subject Rights</h2>
-    <p>You are always in full control of your data because it never leaves your device. You can close the panel to clear the loaded database, remove files from the recent list, choose not to open a file, or uninstall the extension at any time. Individuals in the European Economic Area ("EEA") and other jurisdictions have certain legal rights regarding personal data; because MDB &amp; ACCDB Viewer holds none of your data on any server, those rights are already exercised directly by you on your own machine. If you have questions about this, you may email us at <a href="mailto:rentabextension@gmail.com">rentabextension@gmail.com</a>.</p>
+    <p>Your database files never leave your device. You can close the panel to clear the loaded database, remove files from the recent list, choose not to open a file, or uninstall the extension at any time; uninstalling stops all usage statistics. Individuals in the European Economic Area ("EEA") and other jurisdictions have certain legal rights regarding personal data; because the usage statistics are anonymous and contain nothing from your files, we cannot link them to you; if you have a request, contact us. If you have questions about this, you may email us at <a href="mailto:rentabextension@gmail.com">rentabextension@gmail.com</a>.</p>
   </div>
 
   <div class="card">
@@ -135,7 +148,7 @@
 
   <div class="card">
     <h2>Data Retention</h2>
-    <p>We retain no user data, because we never receive any. Any database file you open stays on your own device under your own control for as long as you keep it there.</p>
+    <p>Anonymous usage events are kept in PostHog for as long as needed to analyze how the extension is used and are then deleted. Any database file you open stays on your own device under your own control for as long as you keep it there.</p>
   </div>
 
   <div class="card">
