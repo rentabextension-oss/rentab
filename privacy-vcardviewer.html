@@ -51,7 +51,7 @@
 
 <div class="hero">
   <h1>Privacy Policy</h1>
-  <p>Last Updated: November 2, 2026</p>
+  <p>Last Updated: November 20, 2026</p>
 </div>
 
 <main>
@@ -74,8 +74,9 @@
 
   <div class="card">
     <h2>How Your Contact Files Are Handled</h2>
-    <p>When you open a .vcf or .vcard file — by dragging it into the side panel or choosing it with the file picker — the extension reads that file using your browser's built-in file API and parses it directly in the page. The contacts exist only in the memory of the open panel.</p>
-    <p>The extension does not save your contacts. Apart from a few small settings (such as whether the file list is collapsed) and the anonymous statistics identifier, it writes nothing to disk on its own. When you close the panel or the browser, the parsed data is gone. Reopening a file loads it again from your own copy.</p>
+    <p>When you open a .vcf or .vcard file — by dragging it into the side panel or choosing it with the file picker — the extension reads that file using your browser's built-in file API and parses it directly in the page. The contacts are kept in the memory of the open panel.</p>
+    <p>If you change a file (edit, add or delete contacts) and have not saved it to a .vcf yet, the extension keeps an unsaved draft of that file in your browser's local storage (IndexedDB) on your own computer, so your work is not lost if the panel or the browser closes. The next time you open the same file, you can restore the draft or open the original. The draft is deleted as soon as you save the file, choose "Open original", close the file in the panel, or after 30 days. Drafts never leave your device and are never sent to us or anyone else.</p>
+    <p>Apart from these drafts, a few small settings (such as whether the file list is collapsed) and the anonymous statistics identifier, the extension writes nothing to disk on its own. Files you open without changing them are not stored.</p>
     <h3>Contact Photos</h3>
     <p>Photos embedded in your contact file can be displayed locally. Remote photo URLs are not loaded automatically, so opening a contact does not request its photo from another server. The original photo property is preserved when you export the contact.</p>
     <h3>Editing and Exporting</h3>
@@ -110,7 +111,7 @@
 
   <div class="card">
     <h2>Your Choices and Data Subject Rights</h2>
-    <p>You are always in full control of your data because it never leaves your device. You can close the panel to clear the loaded contacts, choose not to open a file, or uninstall the extension at any time. Individuals in the European Economic Area ("EEA") and other jurisdictions have certain legal rights regarding personal data; because vCard Viewer holds none of your data on any server, those rights are already exercised directly by you on your own machine. If you have questions about this, you may email us at <a href="mailto:rentabextension@gmail.com">rentabextension@gmail.com</a>.</p>
+    <p>You are always in full control of your data because it never leaves your device. You can close a file in the panel to clear it and its unsaved draft, choose not to open a file, or uninstall the extension at any time. Individuals in the European Economic Area ("EEA") and other jurisdictions have certain legal rights regarding personal data; because vCard Viewer holds none of your data on any server, those rights are already exercised directly by you on your own machine. If you have questions about this, you may email us at <a href="mailto:rentabextension@gmail.com">rentabextension@gmail.com</a>.</p>
   </div>
 
   <div class="card">
@@ -120,7 +121,7 @@
 
   <div class="card">
     <h2>Data Retention</h2>
-    <p>We retain no contact data, because we never receive any. Anonymous usage statistics are kept in PostHog for as long as they are useful for improving the extension. Any contact file you open stays on your own device under your own control for as long as you keep it there.</p>
+    <p>We retain no contact data, because we never receive any. Unsaved drafts stay only in your own browser and are deleted automatically after 30 days. Anonymous usage statistics are kept in PostHog for as long as they are useful for improving the extension. Any contact file you open stays on your own device under your own control for as long as you keep it there.</p>
   </div>
 
   <div class="card">
